@@ -120,7 +120,20 @@ class issuingAppManagement {
 		// APPLICATION DATA
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Application Proses New Contract/span_Application Data'), 0)
 		WebUI.takeScreenshot()
-		WebUI.callTestCase(findTestCase('Test Cases/Issuing App Management/save_registernumber'), null)
+		WebDriver driver = DriverFactory.getWebDriver()
+
+		List<WebElement> tableTransaksi = driver.findElements(By.xpath("//tbody"))
+		List<String> listTrx = new ArrayList<String>()
+
+		if (tableTransaksi.size() >= 1) {
+			WebElement lastRow = tableTransaksi.get(tableTransaksi.size() - 1);
+			String registernumber = lastRow.findElement(By.xpath("//div[5]/div/div/div[4]/span")).text
+			listTrx.add(registernumber)
+
+			println (registernumber)
+		} else {
+			println ("No transaction rows found.")
+		}
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/Dashboard/Application Proses New Contract/span_Application Data'))
 		WebUI.takeScreenshot()
@@ -182,6 +195,26 @@ class issuingAppManagement {
 		WebUI.setText(findTestObject('Object Repository/login_page/input_English_password'), "cll_sgn_1")
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login_page/button_Login'))
+		WebUI.takeScreenshot()
+		
+		
+		// SUPERVISOR CARI REGIST NUMBER
+		
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Supervisor/div_Supervisor Application Management'), 0)
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Supervisor/div_Supervisor Application Management'))
+		WebUI.takeScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Supervisor/span_By Registration Number'), 0)
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Supervisor/span_By Registration Number'))
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Supervisor/input__ApplRegNumber'))
+		WebUI.takeScreenshot()
+		for(int i = 0; i < listTrx.size(); i++){
+		WebUI.setText(findTestObject('Object Repository/Supervisor/input__ApplRegNumber'), listTrx.get(i))
+		WebUI.takeScreenshot()
+		}
+		WebUI.click(findTestObject('Object Repository/Supervisor/span_Find'))
 		WebUI.takeScreenshot()
 	}
 }

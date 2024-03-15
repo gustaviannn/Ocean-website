@@ -52,21 +52,6 @@ class supervisor {
 	@Then("Supervisor approve")
 	def spvApprove() {
 
-		TestData registernumber = findTestData("Data Files/registernumber")
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Supervisor/div_Supervisor Application Management'), 0)
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/div_Supervisor Application Management'))
-		WebUI.takeScreenshot()
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Supervisor/span_By Registration Number'), 0)
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/span_By Registration Number'))
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/input__ApplRegNumber'))
-		WebUI.takeScreenshot()
-		WebUI.setText(findTestObject('Object Repository/Supervisor/input__ApplRegNumber'), registernumber.getValue("REGISTRATION NUMBER", 1))
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/span_Find'))
-		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/Dashboard/Application Proses New Contract/span_Approve'))
 		WebUI.takeScreenshot()
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Application Proses New Contract/button_Save'), 0)
@@ -82,25 +67,10 @@ class supervisor {
 		WebUI.click(findTestObject('Object Repository/Dashboard/Application Proses New Contract/button_Save'))
 		WebUI.takeScreenshot()
 	}
-	
+
 	@Then("Supervisor decline")
 	def spvDecline() {
 
-		TestData registernumber = findTestData("Data Files/registernumber")
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Supervisor/div_Supervisor Application Management'), 0)
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/div_Supervisor Application Management'))
-		WebUI.takeScreenshot()
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Supervisor/span_By Registration Number'), 0)
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/span_By Registration Number'))
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/input__ApplRegNumber'))
-		WebUI.takeScreenshot()
-		WebUI.setText(findTestObject('Object Repository/Supervisor/input__ApplRegNumber'), registernumber.getValue("REGISTRATION NUMBER", 1))
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Supervisor/span_Find'))
-		WebUI.takeScreenshot()
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Issuing_Application_Management/New Contract/span_Decline'), 0)
 		WebUI.click(findTestObject('Object Repository/Dashboard/Issuing_Application_Management/New Contract/span_Decline'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Application Proses New Contract/button_Save'), 0)
