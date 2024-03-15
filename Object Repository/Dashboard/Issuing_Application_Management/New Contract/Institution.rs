@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Institution</name>
+   <tag></tag>
+   <elementGuidId>92fd7f25-199a-4fa4-b340-d512b4178abe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-select-placeholder.text-muted.ng-binding.focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ecf07a33-ef48-4ea1-9fff-049661f09f2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>$select.isEmpty()</value>
+      <webElementGuid>90043ffb-2f53-472f-916c-6775739c9ee3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-placeholder text-muted ng-binding focused</value>
+      <webElementGuid>d83d602d-3820-4838-8a9f-d61c67f4c424</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'focused': $select.focus }</value>
+      <webElementGuid>916b1390-1a30-4ada-9ee0-0699af972c93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_IssApplMngApplCreateForContract  label-warning id_3 last&quot;]/tab[@class=&quot;custom_tab_1 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-form&quot;]/div[@class=&quot;tab-content tab-without-links has-not-top-links&quot;]/div[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;form-container-outer&quot;]/form[@class=&quot;content-element ng-pristine vertical-layout ng-valid-maxlength ng-valid-check-spaces ng-invalid ng-invalid-required ng-invalid-ui-select-required-validator&quot;]/div[@class=&quot;inner inner-x ng-scope hovered inner-visible&quot;]/div[@class=&quot;form-container form-sub&quot;]/div[@class=&quot;first-group ng-scope&quot;]/div[@class=&quot;field-block-container&quot;]/field-block[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-field field_code_Institution required&quot;]/div[@class=&quot;form-value&quot;]/field[@class=&quot;field-value ng-isolate-scope&quot;]/select-full[@class=&quot;field ng-scope ng-isolate-scope&quot;]/div[@class=&quot;select select-full&quot;]/div[@class=&quot;select-place text-edit ui-select-container ui-select-bootstrap dropdown ng-empty ng-invalid ng-invalid-ui-select-required-validator ng-pristine ng-touched&quot;]/div[@class=&quot;ui-select-match ng-scope&quot;]/div[@class=&quot;ui-select-scope ui-select-toggle&quot;]/div[@class=&quot;ui-select-placeholder text-muted ng-binding focused&quot;]</value>
+      <webElementGuid>5e8fd3c7-f8c8-4ccd-9888-d1b92fcc1bfd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[6]</value>
+      <webElementGuid>ca486373-7b6b-4cbc-a3b4-ddcf1dd0bc62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Institution'])[2]/following::div[7]</value>
+      <webElementGuid>dda9e42a-f4d3-4e59-a30d-de2055887a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empty'])[1]/preceding::div[4]</value>
+      <webElementGuid>85e2b445-5b19-44d9-b42c-97604830d606</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading...'])[1]/preceding::div[4]</value>
+      <webElementGuid>e6df90ec-7945-4dff-a467-c4b6d07b09b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select-full/div/div/div/div/div</value>
+      <webElementGuid>a402beec-cb58-4e24-809a-e6d68a923a2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

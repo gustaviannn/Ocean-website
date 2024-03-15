@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Find</name>
+   <tag></tag>
+   <elementGuidId>d953306e-bba5-488c-8383-f4348063126e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.form-save-bar-button.search-btn.valid-btn > span.ng-binding.ng-scope</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Find']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7f83775c-543f-4c03-9c40-a0e752738ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!applyLink.$refreshed</value>
+      <webElementGuid>6feeaa39-7b4e-4937-a618-44dc0bf0678f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding ng-scope</value>
+      <webElementGuid>a6485c8d-83c7-4b73-a871-d18c3dbdc7dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              Find
+            </value>
+      <webElementGuid>b570d653-d768-45a8-be14-325664571418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_Apply   id_5 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-CSWBRI&quot;]/div[@class=&quot;query-form-wrapper&quot;]/div[@class=&quot;query-form-container ng-scope hovered&quot;]/div[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;query-form&quot;]/form[@class=&quot;content-element vertical-layout ng-valid-maxlength ng-valid-check-spaces ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;form-container form-field-count-1&quot;]/div[1]/button[@class=&quot;form-save-bar-button search-btn valid-btn&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <webElementGuid>cc04305b-2ad2-4e12-9d31-540bad8c5e7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[2]</value>
+      <webElementGuid>e67ec532-f6e8-4ccf-b16a-b7feed337d87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KTP'])[2]/following::span[2]</value>
+      <webElementGuid>02327769-2b2a-4c96-ba1d-1cff84490c2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::span[1]</value>
+      <webElementGuid>f1690000-4150-45ee-8f77-f0b693dea717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='drop here'])[1]/preceding::span[2]</value>
+      <webElementGuid>0ad49f3c-4c3e-48f2-8e91-b87f61037a1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find']/parent::*</value>
+      <webElementGuid>16fc9bb5-b74d-46d0-92e3-88d5905a9911</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>1b0b2e57-8b31-4b16-a29d-6e64a3a924cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+              Find
+            ' or . = '
+              Find
+            ')]</value>
+      <webElementGuid>7a65458c-59a5-4a60-a4f5-c271d7c0261e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_By Phone</name>
+   <tag></tag>
+   <elementGuidId>1036b766-167f-4f89-a015-f310cf9c4d5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='query-bar']/div[4]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8ee96c18-b428-433a-843f-d3fed86bb00d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>getTitleForQuery(header)   | sanitize</value>
+      <webElementGuid>39152a6d-e5c1-4247-ba70-923a696728fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>da26a886-f219-474a-9d09-e6ec69275d4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>By Phone</value>
+      <webElementGuid>5853cd3a-4dc2-4da4-9e51-48d1dc45e121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;query-bar&quot;)/div[@class=&quot;tab-label label-link-group br-step step-hide step-hide tab-query ng-scope&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>22eda061-8de2-4a94-bae2-c1a93869546e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='query-bar']/div[4]/span</value>
+      <webElementGuid>f321af1b-cd63-4782-a452-c302cb27887b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='By Card'])[1]/following::span[1]</value>
+      <webElementGuid>ef72354e-f56d-4b11-99e2-3d18bd7e9904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='By KTP'])[1]/following::span[3]</value>
+      <webElementGuid>2d8f2db0-fb41-47b4-9f92-f130420d384b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='By Name &amp; Card'])[1]/preceding::span[1]</value>
+      <webElementGuid>e278fcaa-d952-4e02-af6a-ea11fd89a7aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MORE...'])[1]/preceding::span[2]</value>
+      <webElementGuid>c6e812ee-a610-4247-9583-9b962be1ef8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='By Phone']/parent::*</value>
+      <webElementGuid>8aafea09-34ed-4a0b-83cd-dcad2efd4a34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/ng-transclude/div/div/div[4]/span</value>
+      <webElementGuid>1d7c92bb-1404-49b0-ba8e-20cbb81a4e63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'By Phone' or . = 'By Phone')]</value>
+      <webElementGuid>106e2896-0a1d-4890-9ff5-5ddc5be5395b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

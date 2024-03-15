@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Accept</name>
+   <tag></tag>
+   <elementGuidId>5be22cd6-c80c-48e6-9ff4-65f8a277078a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.tab-label-top-button.for-focus > span.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b5e4d1e6-3362-4e3d-8a51-8484eef04b56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>getLinkTitle(link) | sanitize</value>
+      <webElementGuid>227df5fa-19a9-4094-a39c-4a64dba4da77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>b99025ef-32a5-4e1b-b801-b66bef19bf80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accept</value>
+      <webElementGuid>6ecc0c1b-79b6-4893-914a-ab2fed53673e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_Apply   id_4 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-focused&quot;]/div[@class=&quot;tab-element tab-header ng-scope&quot;]/div[@class=&quot;header-content&quot;]/div[2]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;iconic-container&quot;]/div[@class=&quot;iconic-container-right&quot;]/div[@class=&quot;breadcrumb-container iconbar&quot;]/div[1]/div[@class=&quot;breadcrumbs&quot;]/ng-transclude[1]/div[@class=&quot;br-step step-hide for-focus br-right2 tab-label-top ng-scope step-first&quot;]/div[@class=&quot;tab-label-top-button for-focus&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>962dcde0-2452-4155-943d-b34800183864</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[1]/following::span[1]</value>
+      <webElementGuid>f60f7f67-02b4-4258-904f-5a1342108a49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incomplete'])[6]/following::span[2]</value>
+      <webElementGuid>5703ac92-df9b-4915-baa3-009f1cfecd22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[2]/preceding::span[2]</value>
+      <webElementGuid>d7d9a74f-a17f-40fa-9b7c-c6960589adbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[2]/preceding::span[2]</value>
+      <webElementGuid>8fb4dc54-8a63-4421-acc9-875b43f0ae54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Accept']/parent::*</value>
+      <webElementGuid>f7faf947-b9f7-44a0-be7c-b9f967bef440</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span</value>
+      <webElementGuid>45735d35-2046-41b0-92fe-43538c6d0445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Accept' or . = 'Accept')]</value>
+      <webElementGuid>8983450e-9a1d-474f-8642-4a55f21a6900</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

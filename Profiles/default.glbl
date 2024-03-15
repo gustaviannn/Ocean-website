@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://172.24.128.45:20100/w4web3_wsrtp/static/#5cdeaa'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'thisisunsafe'</initValue>
+      <name>unsafe</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

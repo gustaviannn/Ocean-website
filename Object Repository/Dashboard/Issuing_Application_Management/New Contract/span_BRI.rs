@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_BRI</name>
+   <tag></tag>
+   <elementGuidId>a82d39fe-90bd-4bcd-8ad6-2ac4cf58a166</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'ng-binding ng-scope' and (text() = 'BRI' or . = 'BRI')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-select-choices-row-inner > span.ng-binding.ng-scope</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='BRI']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>db89eb16-31a8-40e9-9e20-075ef77d78bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>''+ ctrl.escapeSpecSymbols(dataItem.value) | highlight: $select.search</value>
+      <webElementGuid>180cebe7-c012-4fe3-b599-f075ac80ad18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding ng-scope</value>
+      <webElementGuid>af4e18da-ecbd-406e-a5a7-7e496ee0f87a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${pilih_institusi}</value>
+      <webElementGuid>6ec40eec-f5cd-4fe6-a380-fcc8b2b3d0e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-select-choices-row-2-0&quot;)/span[@class=&quot;ui-select-choices-row-inner&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <webElementGuid>f7b7cc65-fe54-420e-a996-f847f3f7733d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-select-choices-row-2-0']/span/span</value>
+      <webElementGuid>8db56475-ef06-40d9-8f5e-feaba9a22b3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::span[5]</value>
+      <webElementGuid>ca60e25c-2cb6-4760-abc5-4e22f4356274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[4]/preceding::span[1]</value>
+      <webElementGuid>0e085cd9-5739-4beb-861e-e0566ed90187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch Department'])[1]/preceding::span[3]</value>
+      <webElementGuid>e5631511-515a-4771-b386-74f8fc708a95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BRI']/parent::*</value>
+      <webElementGuid>97ac2209-b284-4c3a-b85f-8a6b94dba8b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span/span</value>
+      <webElementGuid>1629c53b-6d6e-4056-9781-3295bb92a99a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'BRI' or . = 'BRI')]</value>
+      <webElementGuid>c54eac1a-7e97-4858-ab9d-48ad76a855fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

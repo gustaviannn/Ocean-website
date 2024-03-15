@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Decline</name>
+   <tag></tag>
+   <elementGuidId>05b08fce-1117-4618-8b2a-bdda1603edd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.br-step.step-hide.for-focus.br-right2.tab-label-top.ng-scope.step-last > div.tab-label-top-button.for-focus > span.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d3adf66f-d419-4f88-b6b4-307267a2ffa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>getLinkTitle(link) | sanitize</value>
+      <webElementGuid>eb3d8404-307c-452a-816f-43cc260b584a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>352938b2-a7e5-4dcb-b1af-a794578a29aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Decline</value>
+      <webElementGuid>5deffa8f-d214-4bbb-9c2e-0c0feaf94479</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_Apply   id_4 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-focused&quot;]/div[@class=&quot;tab-element tab-header ng-scope&quot;]/div[@class=&quot;header-content&quot;]/div[2]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;iconic-container&quot;]/div[@class=&quot;iconic-container-right&quot;]/div[@class=&quot;breadcrumb-container iconbar&quot;]/div[1]/div[@class=&quot;breadcrumbs&quot;]/ng-transclude[1]/div[@class=&quot;br-step step-hide for-focus br-right2 tab-label-top ng-scope step-last&quot;]/div[@class=&quot;tab-label-top-button for-focus&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>d79d2af2-aa03-402c-9a94-c8f558447497</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::span[1]</value>
+      <webElementGuid>e5333237-db65-4cec-b633-39b14b14dedf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/following::span[1]</value>
+      <webElementGuid>54b8c50e-a50f-4012-9efd-f208ba7143c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[2]/preceding::span[2]</value>
+      <webElementGuid>80b248d3-aabf-447f-bc68-bfda6157a2b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[2]/preceding::span[2]</value>
+      <webElementGuid>8a3944df-63f1-4cfb-93a0-f92d8edfbb22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Decline']/parent::*</value>
+      <webElementGuid>0b114f96-042f-4e97-876e-d866b59a2031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span</value>
+      <webElementGuid>b76b89ee-065c-4867-876f-51db8633a16c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Decline' or . = 'Decline')]</value>
+      <webElementGuid>6a111527-e1c7-4b00-84de-73b8f2a54adc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
