@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "6A8FB2E187DA0B8984EE548AD788E9AE",
+  "keywordFileContentHash": "4F806419E51FA4AB31494ED3E33CB338",
   "keywordClasses": [
     {
       "name": "onBoardingCard.onBoardingCard",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
