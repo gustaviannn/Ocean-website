@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_CARD 3</name>
+   <tag></tag>
+   <elementGuidId>932ddc01-fde9-410f-8d46-f9a97871a2dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gridElement']/div[5]/div/div[5]/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>831269d8-6f92-4d93-aeb4-24420e9434e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>d1274ebd-6286-4f36-aed5-712cfed94902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cell-content</value>
+      <webElementGuid>e61cbc3e-6be6-46b4-883d-1109cabeb9d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CARD [40784462124870-02498] </value>
+      <webElementGuid>48c13032-bc50-480c-aa69-3066b71e4d52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gridElement&quot;)/div[@class=&quot;slick-viewport&quot;]/div[@class=&quot;grid-canvas&quot;]/div[@class=&quot;ui-widget-content slick-row even&quot;]/div[@class=&quot;slick-cell l0 r0&quot;]/span[@class=&quot;toggle-cell&quot;]/span[@class=&quot;cell-content&quot;]</value>
+      <webElementGuid>eafe9ffb-4d58-4d24-83b6-3d7319579f06</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gridElement']/div[5]/div/div[5]/div/span/span</value>
+      <webElementGuid>e045b051-da17-4696-bb01-bc7611063909</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CARD [40784462124870-02504]'])[1]/following::span[2]</value>
+      <webElementGuid>365556da-1e87-4540-9e6b-934400c529ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CARD [40784462124870-02488]'])[1]/following::span[4]</value>
+      <webElementGuid>5d887b5a-05b1-4927-86a7-d938a97f31c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[3]/preceding::span[1]</value>
+      <webElementGuid>8faf04c6-6902-4bbd-8a60-07b235e1e57c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/preceding::span[3]</value>
+      <webElementGuid>a9c20277-851b-447f-addb-ddab6320e7cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CARD [40784462124870-02498]']/parent::*</value>
+      <webElementGuid>908e346c-cb27-40db-ac13-a771eee36f2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/span/span</value>
+      <webElementGuid>e3b53a71-8b1a-41c4-839e-c18631af4f0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'CARD [40784462124870-02498] ' or . = 'CARD [40784462124870-02498] ')]</value>
+      <webElementGuid>d3728430-a9c0-4a58-8550-e459ae5c8ce1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_MR</name>
+   <tag></tag>
+   <elementGuidId>dff277bf-c7e1-4cab-b68b-3afe9dddc9b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-select-choices-row-5-1']/span/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'ng-binding ng-scope' and (text() = '${pilih_embossing_title}' or . = '${pilih_embossing_title}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-select-choices-row-5-1 > span.ui-select-choices-row-inner > span.ng-binding.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7ecb6c48-78c4-475f-8e9c-7279d8c3cfc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>''+ ctrl.escapeSpecSymbols(dataItem.value) | highlight: $select.search</value>
+      <webElementGuid>d707271f-72c0-4a17-86a2-b2c3eed80294</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding ng-scope</value>
+      <webElementGuid>1ca0cdd7-8c50-43fb-8633-ec6a682eb9ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${pilih_embossing_title}</value>
+      <webElementGuid>4ca9ef48-3c14-477c-a1be-5bc47124a3e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-select-choices-row-5-1&quot;)/span[@class=&quot;ui-select-choices-row-inner&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <webElementGuid>caaf23d6-1a25-4d2e-8620-ff291378501c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-select-choices-row-5-1']/span/span</value>
+      <webElementGuid>1c4bee8c-aab6-4233-9113-a92283acc140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MISS'])[1]/following::span[2]</value>
+      <webElementGuid>b2146b1a-a1f9-45f0-b86b-7608573fed02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::span[7]</value>
+      <webElementGuid>977c2127-f1fd-4533-a218-80c87b6cbb6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MRS'])[1]/preceding::span[1]</value>
+      <webElementGuid>fd877da7-0ac7-4e68-8b5c-99674f0e8985</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empty'])[2]/preceding::span[3]</value>
+      <webElementGuid>edcd6971-ed49-4ccc-8ff6-6b279caaf17b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MR']/parent::*</value>
+      <webElementGuid>58a150db-ed1b-40a4-b6f4-fdd6484a9f6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span/span</value>
+      <webElementGuid>737bdde9-753a-488c-ba20-8a8d090872e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'MR' or . = 'MR')]</value>
+      <webElementGuid>e3d216bc-e31f-448f-b7b6-dd48e37f60c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

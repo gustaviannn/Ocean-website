@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pilih_value</name>
+   <tag></tag>
+   <elementGuidId>01680f38-67f9-4276-a574-602003b28e0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[23]/following::div[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-select-placeholder.text-muted.ng-binding.focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>19c46420-265c-468e-8f67-c741cc0028e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>$select.isEmpty()</value>
+      <webElementGuid>2d05b7d0-eb4f-446a-b00f-a734ad972047</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-placeholder text-muted ng-binding focused</value>
+      <webElementGuid>a5db7a37-48bd-40bd-a1b4-2c8ed459c482</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'focused': $select.focus }</value>
+      <webElementGuid>7bbb1f46-7998-4d06-b705-6b11abcdb0e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_NodeApplClassifierListClassifierLimEdit  label-warning id_15 last&quot;]/tab[@class=&quot;custom_tab_3 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-form&quot;]/div[@class=&quot;tab-content tab-without-links has-not-top-links&quot;]/div[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;form-container-outer&quot;]/form[@class=&quot;content-element ng-pristine ng-valid vertical-layout ng-valid-required ng-valid-check-spaces ng-valid-datecheck ng-valid-ui-select-required-validator&quot;]/div[@class=&quot;inner inner-x ng-scope hovered inner-visible&quot;]/div[@class=&quot;form-container form-sub&quot;]/div[@class=&quot;first-group ng-scope&quot;]/div[@class=&quot;field-block-container&quot;]/field-block[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-field field_code_Value&quot;]/div[@class=&quot;form-value&quot;]/field[@class=&quot;field-value ng-isolate-scope&quot;]/select-full[@class=&quot;field ng-scope ng-isolate-scope&quot;]/div[@class=&quot;select select-full&quot;]/div[@class=&quot;select-place text-edit ui-select-container ui-select-bootstrap dropdown ng-empty ng-valid-ui-select-required-validator ng-touched&quot;]/div[@class=&quot;ui-select-match ng-scope&quot;]/div[@class=&quot;ui-select-scope ui-select-toggle&quot;]/div[@class=&quot;ui-select-placeholder text-muted ng-binding focused&quot;]</value>
+      <webElementGuid>7f8b54e8-8d82-45c6-b156-f7a106000f09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[23]/following::div[6]</value>
+      <webElementGuid>9241e88c-cccf-453a-accd-17a42b5aa338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Value'])[3]/following::div[7]</value>
+      <webElementGuid>2357e62f-68a7-4dd7-82e7-759f702d93ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empty'])[1]/preceding::div[4]</value>
+      <webElementGuid>4cd9ae18-683a-43bf-978e-c5f4f73b9308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading...'])[1]/preceding::div[4]</value>
+      <webElementGuid>36d860fe-6c02-486d-8ebb-e3958b5dfa13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select-full/div/div/div/div/div</value>
+      <webElementGuid>68998b2f-b2d5-4142-8db1-ed0df09d2a11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

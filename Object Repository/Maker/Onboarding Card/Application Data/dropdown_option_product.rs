@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_option_product</name>
+   <tag></tag>
+   <elementGuidId>3ce77dfb-95c3-4e76-94f1-b935b76f6078</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-select-choices-row-9-9']/span/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'ng-binding ng-scope' and (text() = '002-MC Credit Card 01 Corporate Iss' or . = '002-MC Credit Card 01 Corporate Iss')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-select-choices-row-9-9 > span.ui-select-choices-row-inner > span.ng-binding.ng-scope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>813236b8-7bc8-4b99-a8ef-7cbe58698511</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-bind-html</name>
+      <type>Main</type>
+      <value>''+ ctrl.escapeSpecSymbols(dataItem.value) | highlight: $select.search</value>
+      <webElementGuid>a1ae3e4e-fa5f-4c97-881f-78530148f9e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding ng-scope</value>
+      <webElementGuid>a0a380f2-4c99-4b10-87c9-0439e37f5fba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${pilih_product}</value>
+      <webElementGuid>d39f23b2-45cb-41c6-a4d6-f515cb299faf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-select-choices-row-9-9&quot;)/span[@class=&quot;ui-select-choices-row-inner&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <webElementGuid>1ef1459c-5289-4dc8-8e2e-884cb90a3a5e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-select-choices-row-9-9']/span/span</value>
+      <webElementGuid>9b6b45f9-ac98-4c3f-946e-1d0fdbc5da86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::span[23]</value>
+      <webElementGuid>d15792a5-4673-45db-ab28-402e65230821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SD - MC BRI RAGUNAN'])[1]/preceding::span[33]</value>
+      <webElementGuid>2644ca84-409f-4368-8fc9-c5b1b995c839</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empty'])[2]/preceding::span[35]</value>
+      <webElementGuid>c6da1916-6a0b-469c-9be2-9eefc180dd51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='002-MC Credit Card 01 Corporate Iss']/parent::*</value>
+      <webElementGuid>ebf262e2-79c3-4c4f-8578-66ce722438e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/span/span</value>
+      <webElementGuid>eb6dac86-c3e5-4038-bc5a-056d8b7f538f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '002-MC Credit Card 01 Corporate Iss' or . = '002-MC Credit Card 01 Corporate Iss')]</value>
+      <webElementGuid>0f72165b-a5bc-4398-8fff-b7438e71dd50</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
