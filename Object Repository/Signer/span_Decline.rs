@@ -6,12 +6,12 @@
    <elementGuidId>05b08fce-1117-4618-8b2a-bdda1603edd9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.br-step.step-hide.for-focus.br-right2.tab-label-top.ng-scope.step-last > div.tab-label-top-button.for-focus > span.ng-binding</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.br-step.step-hide.for-focus.br-right2.tab-label-top.ng-scope.step-last > div.tab-label-top-button.for-focus > span.ng-binding</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

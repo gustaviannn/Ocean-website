@@ -1,4 +1,4 @@
-package custServiceWorkBench
+package signer
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -41,32 +41,41 @@ import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
+import org.openqa.selenium.Keys as Keys
 
 
 
-class custServiceWorkBench {
+class signer {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@And("User inquiry customer by name (.*)")
-	def custName(String nama_customer) {
-		
-		WebUI.click(findTestObject('Object Repository/Dashboard/Customer_by_name/div_Customer Service Dashboard'))
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Customer_by_name/span_By Name'), 0)
-		WebUI.setText(findTestObject('Object Repository/Dashboard/Customer_by_name/input__SHORT_NAME'), nama_customer)
-		WebUI.click(findTestObject('Object Repository/Dashboard/Customer_by_name/span_Find'))
-		
+	@Then("Supervisor approve")
+	def spvApprove() {
+
+		WebUI.click(findTestObject('Object Repository/Signer/span_Approve'))
+		WebUI.takeScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
+		WebUI.takeScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/span_Accept'), 0)
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Signer/span_Accept'))
+		WebUI.takeScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
+		WebUI.takeScreenshot()
 	}
-	
-	@And("User inquiry customer by ktp (.*)")
-	def custKTP(String no_ktp) {
-		
-		WebUI.click(findTestObject('Object Repository/Dashboard/Customer_by_name/div_Customer Service Dashboard'))
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Customer_by_name/span_By Name'), 0)
-		WebUI.click(findTestObject('Object Repository/Dashboard/Customer_by_ktp/span_By KTP'))
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Dashboard/Customer_by_ktp/span_By KTP'), 0)
-		WebUI.setText(findTestObject('Object Repository/Dashboard/Customer_by_ktp/span_By KTP'), no_ktp)
-		WebUI.click(findTestObject('Object Repository/Dashboard/Customer_by_name/span_Find'))
-		
+
+	@Then("Supervisor decline")
+	def spvDecline() {
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/span_Decline'), 0)
+		WebUI.click(findTestObject('Object Repository/Signer/span_Decline'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
+		WebUI.takeScreenshot()
+		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
+		WebUI.takeScreenshot()
 	}
 }
