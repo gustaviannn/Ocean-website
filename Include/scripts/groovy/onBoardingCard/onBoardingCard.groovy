@@ -48,7 +48,7 @@ class onBoardingCard {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("User mengisi data (.*), (.*)")
+	@Given("User mengisi data (.*), (.*), (.*)")
 	def inputData(String branch, String app_type, String name_issuing_client) {
 		
 		WebUI.click(findTestObject('Object Repository/Onboarding Card/div_Issuing Application Management'))
@@ -57,7 +57,11 @@ class onBoardingCard {
 		
 		WebUI.click(findTestObject('Object Repository/Onboarding Card/button_create'))
 		
+		WebUI.click(findTestObject('Object Repository/Onboarding Card/div_Create for Client'))
+		
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Onboarding Card/Pilih_branch'), 0)
+		
+		WebUI.click(findTestObject('Object Repository/Onboarding Card/Pilih_branch'))
 		
 		WebUI.click(findTestObject('Object Repository/Onboarding Card/Dropdown_option_Branch', [('pilih_branch') : branch]))
 		
