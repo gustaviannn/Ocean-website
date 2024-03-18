@@ -415,8 +415,6 @@ class onBoardingCard {
 		
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Validate'))
 		
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_OK_popup_validate'), 0)
-		
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_OK_popup_validate'))
 	}
 
