@@ -52,107 +52,107 @@ class checker {
 	def checkerEdit(String editcontractname) {
 
 		TestData login = findTestData("Data Files/loginchecker")
-		
+
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
-		
+
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cl_chk_1")
-		
+
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		TestData registernumber = findTestData('Data Files/registernumber')
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'), registernumber.getValue("REGISTRATION NUMBER", 1))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Find'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Application Data'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Application Data'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Capture'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'), 0)
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_edit'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/div_Edit'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/input_contractname'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/input_contractname'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/input_contractname'), editcontractname)
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/backtoapplicationprocessing'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Checker/span_Approve'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Checker/span_Approve'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_Save'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_Save'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Checker/span_Send to Supervisor'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Checker/span_Send to Supervisor'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_Save'), 0)
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_Save'))
-		
+
 		WebUI.takeFullPageScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/Checker/Profile'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Checker/Logout'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
 	}
 }

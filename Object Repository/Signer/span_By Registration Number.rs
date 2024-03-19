@@ -6,32 +6,35 @@
    <elementGuidId>33a1a203-3100-41fe-8c61-af8ee124cfcb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='query-bar']/div[5]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//span[@ng-bind-html = 'getTitleForQuery(header)   | sanitize' and (text() = 'By Registration Number' or . = 'By Registration Number')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='By Registration Number']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1133a3bf-440d-4746-9221-f3decd980e30</webElementGuid>
+      <webElementGuid>8a4693f9-ec35-4cbb-a9ee-8aa6dd332f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-bind-html</name>
       <type>Main</type>
       <value>getTitleForQuery(header)   | sanitize</value>
-      <webElementGuid>132d1581-9657-467b-a790-03947c5a5cdc</webElementGuid>
+      <webElementGuid>66274d5f-ce7a-4415-8cfc-c7fa0160b0fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>d3e2c4cb-1b16-4aa8-851e-689c80a52095</webElementGuid>
+      <webElementGuid>545cc6c3-b20d-4b28-9737-ec2f43df320a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>By Registration Number</value>
-      <webElementGuid>a9a66dfb-565a-4b4e-8074-79de62f3ded5</webElementGuid>
+      <webElementGuid>4a21a82a-6c95-42a9-82eb-38288577abb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;query-bar&quot;)/div[@class=&quot;tab-label label-link-group br-step step-hide step-hide tab-query ng-scope&quot;]/span[@class=&quot;ng-binding&quot;]</value>
-      <webElementGuid>f889b30e-a79c-465d-95c1-e3bed1b7beb0</webElementGuid>
+      <webElementGuid>74e185d7-d786-4790-b63c-ce484d4b7d73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='query-bar']/div[5]/span</value>
-      <webElementGuid>1f0125a8-53b7-4c9a-8d23-faa97b0c9d09</webElementGuid>
+      <webElementGuid>eaaad2db-dd21-456f-af32-44cbfa5fc360</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By Case Opening Period'])[1]/following::span[1]</value>
-      <webElementGuid>9fc86fdf-9e9e-4893-87e0-1302d69698d7</webElementGuid>
+      <webElementGuid>2a2cba97-e3a1-441f-a270-a680249059de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loaded'])[1]/following::span[2]</value>
-      <webElementGuid>d1430bd0-b085-4907-8068-17ddab323a73</webElementGuid>
+      <webElementGuid>6adc21e9-b690-4f8e-b974-42341cd9dbc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By Case Number'])[1]/preceding::span[1]</value>
-      <webElementGuid>75ac7449-4b38-4a25-a6df-f49aeed120e7</webElementGuid>
+      <webElementGuid>3ee4a64c-ca7e-4885-b39d-fb8136f395f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='By Case Owner'])[1]/preceding::span[2]</value>
-      <webElementGuid>c2a11d73-d02e-48c0-801e-3265c4d0ac82</webElementGuid>
+      <webElementGuid>4d8bc1fa-50a9-476c-aabe-b133c79c35b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='By Registration Number']/parent::*</value>
-      <webElementGuid>ade7fa77-ae03-4cf3-8aba-bf9f6e6ba148</webElementGuid>
+      <webElementGuid>23984b20-abcb-4a8e-8191-ebf29b02e9ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/ng-transclude/div/div/div[5]/span</value>
-      <webElementGuid>2e13a3bf-b7a1-4d61-9e71-267f5cd3d5e1</webElementGuid>
+      <webElementGuid>cd2653a4-207d-4654-9ffc-38f736abaac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'By Registration Number' or . = 'By Registration Number')]</value>
-      <webElementGuid>c33926e1-931d-4859-87c1-db68cb4d70bd</webElementGuid>
+      <webElementGuid>5ac5983a-fe95-4395-ae9d-c410c98a4969</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
