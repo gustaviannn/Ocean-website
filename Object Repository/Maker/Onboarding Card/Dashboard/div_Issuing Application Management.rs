@@ -6,12 +6,11 @@
    <elementGuidId>9731f923-4ba4-4a20-98e8-ffadd6e96c18</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate Onboarding Application'])[1]/following::div[3]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Issuing Application Management']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8e16c811-e859-4110-88ae-c43924e82ba6</webElementGuid>
+      <webElementGuid>2809dffa-ae91-463d-89dc-8388c3cd6531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>title ng-binding</value>
-      <webElementGuid>516bd191-2db5-47b6-922b-a67af152c5f0</webElementGuid>
+      <webElementGuid>3cd52399-55be-4741-a9bc-d9be201a0e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>ng-class</name>
       <type>Main</type>
       <value>{loading: item.$loading}</value>
-      <webElementGuid>3072ee4d-d3dd-48dc-afe0-2bf0c10d871b</webElementGuid>
+      <webElementGuid>3998136b-6280-417d-a4b4-829872c811e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Issuing Application Management</value>
-      <webElementGuid>2bf11813-f3d2-48d0-9263-751d7456773a</webElementGuid>
+      <webElementGuid>4fd80734-ef11-43b8-95df-2e78afb6c03d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_root no-header  id_0 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-sys   headless tab-menu&quot;]/div[@class=&quot;tab-content tab-without-links has-not-top-links&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;list-group hovered&quot;]/div[@class=&quot;group-items-list inner inner-x&quot;]/div[@class=&quot;group-group columns ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;group-list-item group-item-level1 ng-scope&quot;]/div[@class=&quot;title ng-binding&quot;]</value>
-      <webElementGuid>c7e578b6-a4db-455a-b54e-b2663f174c22</webElementGuid>
+      <webElementGuid>812d40dd-901a-45d8-8b16-fed6e05174c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate Onboarding Application'])[1]/following::div[3]</value>
-      <webElementGuid>673e0cc5-f8b0-4cff-9079-dfb83406d852</webElementGuid>
+      <webElementGuid>145c4a8d-944a-406e-bea2-e19934370412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Application Management'])[1]/following::div[7]</value>
-      <webElementGuid>6d6b4ead-60cf-4682-90a3-74667cea9a6f</webElementGuid>
+      <webElementGuid>5de8988b-a575-441c-a5d9-b66181b5ef8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Service Workbench'])[1]/preceding::div[1]</value>
-      <webElementGuid>63221811-9f41-47e7-9036-5050ba103fe0</webElementGuid>
+      <webElementGuid>c6f11943-8767-405d-9620-8438f474a688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Service Dashboard'])[1]/preceding::div[3]</value>
-      <webElementGuid>26d5a035-eb30-421b-be2d-c47753f6ae80</webElementGuid>
+      <webElementGuid>1af74208-3257-4203-9511-03d36d1703af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Issuing Application Management']/parent::*</value>
-      <webElementGuid>8cabc3f3-7702-469e-b7d0-eeabc8f7a15b</webElementGuid>
+      <webElementGuid>33725139-6173-441b-b4d8-449a767eda20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]</value>
-      <webElementGuid>88403b67-35e9-4d5f-b419-3a05424e9939</webElementGuid>
+      <webElementGuid>6df21545-8dee-4ad3-9e18-78984407ff62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Issuing Application Management' or . = 'Issuing Application Management')]</value>
-      <webElementGuid>11a51d73-6def-4f0e-8cdd-88865e6426ba</webElementGuid>
+      <webElementGuid>28291290-01f2-4a3e-beaa-71f068d0f89e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

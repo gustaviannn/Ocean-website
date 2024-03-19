@@ -77,4 +77,13 @@ class login {
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cll_sgn_1")
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
 	}
+	
+	@And("Checker login")
+	def checkerLogin() {
+		
+		TestData login = findTestData("Data Files/loginchecker")
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), login.getValue("IN-CHARGE OFFICER", 1))
+		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+	}
 }

@@ -66,8 +66,8 @@ class onBoardingCard {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("User mengisi data (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*)")
-	def inputData(String branch, String app_type, String name_issuing_client, String contract_name, String product, String value, String value_card, String product_card, String title, String EmbossedFirstName, String EmbossedLastName, String EmbossedFirstName_2, String EmbossedLastName_2, String EmbossedFirstName_3, String EmbossedLastName_3) {
+	@Given("User mengisi data (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*)")
+	def inputData(String institution, String branch, String app_type, String name_issuing_client, String contract_name, String product, String value, String value_card, String product_card, String title, String EmbossedFirstName, String EmbossedLastName, String EmbossedFirstName_2, String EmbossedLastName_2, String EmbossedFirstName_3, String EmbossedLastName_3) {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
 
@@ -77,7 +77,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Create for Client'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Pilih_branch'), 0)
+//		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Institution'), 0)
+//
+//		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Institution'))
+//
+//		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/span_BRI', [('pilih_institusi') : institution]))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Pilih_branch'))
 
@@ -104,7 +108,7 @@ class onBoardingCard {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'))
-		
+
 		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save Register Number'), null)
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Application Data'), 0)
@@ -147,6 +151,20 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/span_Set Credit Limit'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/input__CreditLimitAmount'), "30000000")
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/Pilih_credit_limit_currency'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/span_IDR'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/span_IDR'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/input__CreditLimitReason'), "coba")
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
 
 		///// CLASSIFIERS
 
@@ -164,8 +182,34 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
 
-		///// SETUP CARD CONTRACT
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/button_Edit'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/pilih_value'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/span_Full Amount'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/button_Edit'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/pilih_value'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/span_Free Annual Fee 1st year'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
+
+		///// CARD 1
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_CARD'))
 
@@ -193,6 +237,10 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+
+		///// Classifiers CARD 1
+
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'))
@@ -212,6 +260,34 @@ class onBoardingCard {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/dropdown_option_value', [('pilih_value') : value_card]))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Card Data'))
 
@@ -235,13 +311,72 @@ class onBoardingCard {
 
 		WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 1)
 
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
+		String state = "Indonesia"
+		String city = "Jakarta"
+		String zipcode = "11530"
+		String zipcode2 = "11630"
+		String zipcode3 = "11730"
+		String namajalan = "bahagia"
+		String kelurahan = "Kebon Jeruk"
+		String emergencycontact = "0812121212"
+		String phonenumber = "08123456789"
+		String email = "a@gmail.com"
+		String email2 = "b@gmail.com"
+		String email3 = "c@gmail.com"
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
+
+		WebUI.doubleClick(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/edit_Address'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/edit_Address'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/select_country'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/select_country'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Indonesia'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__state'), state)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__City'), city)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__ZIPCode'), zipcode)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__customer_name'), EmbossedFirstName)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_nama_jalan'), namajalan)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_kelurahan'), kelurahan)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_emergency_contact'), emergencycontact)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/salutation'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_MR'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_phonenumber'), phonenumber)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__Email'), email)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
 		///// TAMBAH 2 DAN 3 KARTU
 
-		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'))
-
-		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Add Contract'), 0)
 
@@ -254,6 +389,7 @@ class onBoardingCard {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Add Contract'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Save'))
+
 
 		///// SETUP KARTU 2
 
@@ -304,6 +440,38 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+		
+		WebUI.doubleClick(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+		
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Card Data'))
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_edit'), 0)
@@ -326,8 +494,56 @@ class onBoardingCard {
 
 		WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 1)
 
-		///// SETUP KARTU 3
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
+
+		WebUI.doubleClick(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/edit_Address'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/edit_Address'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/select_country'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/select_country'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Indonesia'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__state'), state)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__City'), city)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__ZIPCode'), zipcode)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__customer_name'), EmbossedFirstName)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_nama_jalan'), namajalan)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_kelurahan'), kelurahan)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_emergency_contact'), emergencycontact)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/salutation'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_MR'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_phonenumber'), phonenumber)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__Email'), email2)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
+
+		///// KARTU 3
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_CARD 3'))
 
@@ -355,6 +571,9 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+
+		///// KARTU 3 CLASSIFIERS
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'))
@@ -374,6 +593,34 @@ class onBoardingCard {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/dropdown_option_value', [('pilih_value') : value_card]))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Card Data'))
 
@@ -396,26 +643,89 @@ class onBoardingCard {
 		WebUI.findWebElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 0)
 
 		WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 1)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
-		
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
+
+		WebUI.doubleClick(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/edit_Address'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/edit_Address'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/select_country'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/select_country'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Indonesia'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__state'), state)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__City'), city)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__ZIPCode'), zipcode)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__customer_name'), EmbossedFirstName)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_nama_jalan'), namajalan)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_kelurahan'), kelurahan)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_emergency_contact'), emergencycontact)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/salutation'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_MR'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_phonenumber'), phonenumber)
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__Email'), email3)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/button_Save'))
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
+
+		///// VALIDATE
+
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/backtoapplicationprocessing'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'))
-		
+
 		TestData registernumber = findTestData('Data Files/registernumber')
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'), registernumber.getValue("REGISTRATION NUMBER", 1))
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Find'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Validate'))
 		
-		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_OK_popup_validate'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'), 0)
+		
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'))
+		
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Send to Supervisor'))
+		
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_Save'))
+		
+		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save In Charge'), null)
+		
+		WebUI.click(findTestObject('Object Repository/Checker/Profile'))
+		
+		WebUI.click(findTestObject('Object Repository/Checker/Logout'))
+
 	}
 
 

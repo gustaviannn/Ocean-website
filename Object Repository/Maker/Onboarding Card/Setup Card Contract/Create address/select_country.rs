@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_country</name>
+   <tag></tag>
+   <elementGuidId>e0be46b5-7afa-4211-8bc8-5a496ae4897e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-select-placeholder.text-muted.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[2]/following::div[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ed4821bd-6876-42ed-9e5f-39cc652fc6ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>$select.isEmpty()</value>
+      <webElementGuid>a084e239-101e-4c39-9fc5-cc420e4d5642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-placeholder text-muted ng-binding</value>
+      <webElementGuid>e8cfe250-b641-4aee-9527-d53b84f25912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'focused': $select.focus }</value>
+      <webElementGuid>10a06c20-918b-47a5-a6ac-cfd1a260b333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_NodeApplAddressListAddressLimitedEdit  label-warning id_12 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-form&quot;]/div[@class=&quot;tab-content tab-without-links has-not-top-links&quot;]/div[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;form-container-outer&quot;]/form[@class=&quot;content-element ng-pristine vertical-layout ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-check-spaces ng-invalid-ui-select-required-validator&quot;]/div[@class=&quot;inner inner-x ng-scope hovered inner-visible&quot;]/div[@class=&quot;form-container form-sub&quot;]/div[@class=&quot;first-group ng-scope&quot;]/div[@class=&quot;field-block-container&quot;]/field-block[@class=&quot;ng-scope&quot;]/div[@class=&quot;form-field field_code_Country required&quot;]/div[@class=&quot;form-value&quot;]/field[@class=&quot;field-value ng-isolate-scope&quot;]/select-full[@class=&quot;field ng-scope ng-isolate-scope&quot;]/div[@class=&quot;select select-full&quot;]/div[@class=&quot;select-place text-edit ui-select-container ui-select-bootstrap dropdown   ng-empty ng-invalid ng-invalid-ui-select-required-validator&quot;]/div[@class=&quot;ui-select-match ng-scope&quot;]/div[@class=&quot;ui-select-scope ui-select-toggle&quot;]/div[@class=&quot;ui-select-placeholder text-muted ng-binding&quot;]</value>
+      <webElementGuid>5c3fa57a-9a4d-4533-b008-2ace534d601b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::div[6]</value>
+      <webElementGuid>a6c41c2e-b127-458c-ae06-841f7f3520a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[2]/following::div[7]</value>
+      <webElementGuid>1608f13e-2a58-489a-8399-c6e9a73638cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empty'])[1]/preceding::div[4]</value>
+      <webElementGuid>0f0514d9-995e-427e-a1ce-2906ff775395</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading...'])[1]/preceding::div[4]</value>
+      <webElementGuid>4f922065-4221-4007-add9-ae7faf9c11e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select-full/div/div/div/div/div</value>
+      <webElementGuid>9e924310-5163-4ff1-9ef5-a11b2987d7cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
