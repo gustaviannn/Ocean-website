@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://172.24.128.45:20100/w4web3_wsrtp/static/#5cdeaa'</initValue>
+      <initValue>'https://172.24.128.45:20100/w4web3_wsrtp/static/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -58,11 +58,11 @@ class login {
 		WebUI.sendKeys(findTestObject('Object Repository/advance_btn'), GlobalVariable.unsafe)
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 10)
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), username)
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), password)
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 	}
 
 	@And("Supervisor login")
@@ -73,17 +73,8 @@ class login {
 		WebUI.maximizeWindow()
 		WebUI.sendKeys(findTestObject('Object Repository/advance_btn'), GlobalVariable.unsafe)
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 10)
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), "cll_sgn_1")
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cll_sgn_1")
-		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
-	}
-	
-	@And("Checker login")
-	def checkerLogin() {
-		
-		TestData login = findTestData("Data Files/loginchecker")
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), login.getValue("IN-CHARGE OFFICER", 1))
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), "cdd_sgn_1")
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cdd_sgn_1")
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
 	}
 }

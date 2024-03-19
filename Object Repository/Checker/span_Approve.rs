@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Accept</name>
+   <name>span_Approve</name>
    <tag></tag>
-   <elementGuidId>5be22cd6-c80c-48e6-9ff4-65f8a277078a</elementGuidId>
+   <elementGuidId>335323fb-701e-4e8a-8bbf-1432e0680f7c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[2]/preceding::span[2]</value>
+         <value>//*/text()[normalize-space(.)='Approve']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>92da805b-652e-4b06-8fee-2eb3cb0fa4bf</webElementGuid>
+      <webElementGuid>dd9aad47-3f9c-45d4-ad41-35b1134efc65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>ng-bind-html</name>
       <type>Main</type>
       <value>getLinkTitle(link) | sanitize</value>
-      <webElementGuid>69a199a0-507a-4499-8b08-98669aff252f</webElementGuid>
+      <webElementGuid>1716e54a-d079-4d78-b33b-30a06afd2173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,63 +39,63 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>ebe8bd6c-2448-4125-bdfa-354ee1e3f0f1</webElementGuid>
+      <webElementGuid>3cf05e84-4051-4447-b065-a448cde7cf51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Accept</value>
-      <webElementGuid>c4b1a7df-7749-4fad-a49d-f0ebd6d10661</webElementGuid>
+      <value>Approve</value>
+      <webElementGuid>fbf211d6-4869-41a5-90e6-676571b9788a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_Apply   id_4 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-focused&quot;]/div[@class=&quot;tab-element tab-header ng-scope&quot;]/div[@class=&quot;header-content&quot;]/div[2]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;iconic-container&quot;]/div[@class=&quot;iconic-container-right&quot;]/div[@class=&quot;breadcrumb-container iconbar&quot;]/div[1]/div[@class=&quot;breadcrumbs&quot;]/ng-transclude[1]/div[@class=&quot;br-step step-hide for-focus br-right2 tab-label-top ng-scope step-first&quot;]/div[@class=&quot;tab-label-top-button for-focus&quot;]/span[@class=&quot;ng-binding&quot;]</value>
-      <webElementGuid>d36815a8-0f5d-4f9b-8dd0-f91cb470d824</webElementGuid>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_Apply   id_5 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-focused&quot;]/div[@class=&quot;tab-element tab-header ng-scope&quot;]/div[@class=&quot;header-content&quot;]/div[2]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;iconic-container&quot;]/div[@class=&quot;iconic-container-right&quot;]/div[@class=&quot;breadcrumb-container iconbar&quot;]/div[1]/div[@class=&quot;breadcrumbs&quot;]/ng-transclude[1]/div[@class=&quot;br-step step-hide for-focus br-right2 tab-label-top ng-scope step-first&quot;]/div[@class=&quot;tab-label-top-button for-focus&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>72930f4b-3f72-4b2b-a07d-9b68f5c4777d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[1]/following::span[1]</value>
-      <webElementGuid>a574cd24-d09f-4d86-9a26-b74a93c51484</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[1]/following::span[1]</value>
+      <webElementGuid>133ccae8-bffe-4d70-84b0-579c1a67cdfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incomplete'])[6]/following::span[2]</value>
-      <webElementGuid>19c112d1-de6d-43f7-8944-3ad5ebedc71a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Applications In Processing'])[6]/following::span[2]</value>
+      <webElementGuid>f2fbf798-c451-494f-be7d-a968d4e8bf9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[2]/preceding::span[2]</value>
-      <webElementGuid>8518927a-9bd9-4fa2-84e2-f00adc52cf75</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/preceding::span[1]</value>
+      <webElementGuid>0f541f1f-2d32-4a60-9cd1-eefde50829ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accept'])[2]/preceding::span[2]</value>
-      <webElementGuid>9ee040d3-d7c2-4a22-b839-bdbae63ba52b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline'])[1]/preceding::span[1]</value>
+      <webElementGuid>a958b574-3b9c-47ed-b6bd-2e78e12164aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Accept']/parent::*</value>
-      <webElementGuid>d375279b-9cc9-4e3a-9611-926deac92785</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Approve']/parent::*</value>
+      <webElementGuid>da716614-5216-4b80-a76e-2642e5136e62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,14 +103,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span</value>
-      <webElementGuid>f51123c2-feab-4d9a-ba8e-e4c90d97979e</webElementGuid>
+      <webElementGuid>2ba6215b-19f3-4db7-827c-ca3aff6e7468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Accept' or . = 'Accept')]</value>
-      <webElementGuid>f7071be7-8e19-4c73-8769-4f3ea4c9a2a3</webElementGuid>
+      <value>//span[(text() = 'Approve' or . = 'Approve')]</value>
+      <webElementGuid>f2f9ec5a-7ed6-454a-af7e-7774bbc0d865</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

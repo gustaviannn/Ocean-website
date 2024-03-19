@@ -71,25 +71,33 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_create'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_create'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Create for Client'))
 
-//		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Institution'), 0)
-//
-//		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Institution'))
-//
-//		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/span_BRI', [('pilih_institusi') : institution]))
+		//		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Institution'), 0)
+		//
+		//		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Institution'))
+		//
+		//		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/span_BRI', [('pilih_institusi') : institution]))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Pilih_branch'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Dropdown_option_Branch', [('pilih_branch') : branch]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Pilih_application_type'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/Dropdown_option_Application_Type', [('pilih_app_type') : app_type]))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/input__IssuingClient'))
 
@@ -97,15 +105,21 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/input_name_issuing_client'), name_issuing_client)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Find'))
 
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Select'), 0)
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Select'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'), 0)
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'))
 
@@ -115,13 +129,21 @@ class onBoardingCard {
 
 		///// APPLICATION DATA
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Application Data'))
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'), 0)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_edit'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/div_Edit'))
 
@@ -131,7 +153,11 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/input_contractname'), contract_name)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_edit'))
 
@@ -145,11 +171,17 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/dropdown_option_product', [('pilih_product') : product]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/pilih_currency'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_IDR'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/span_Set Credit Limit'))
 
@@ -163,16 +195,24 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create limit/input__CreditLimitReason'), "coba")
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 
 		///// CLASSIFIERS
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/span_Classifiers'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/span_Details'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/button_Edit'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/pilih_value'), 0)
 
@@ -180,9 +220,15 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/dropdown_option_value', [('pilih_value') : value]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/button_Edit'))
 
@@ -192,9 +238,13 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/span_Full Amount'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/button_Edit'))
 
@@ -204,7 +254,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/span_Free Annual Fee 1st year'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
@@ -215,6 +269,8 @@ class onBoardingCard {
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_Set Plastic Information_ng-isolate-scope'), 0)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_Set Plastic Information_ng-isolate-scope'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Edit'))
@@ -223,7 +279,11 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'), contract_name)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit'))
 
@@ -235,7 +295,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_002-Corporate Card 01', [('pilih_productcard') : product_card]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 
 		///// Classifiers CARD 1
@@ -244,6 +308,8 @@ class onBoardingCard {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Details'), 0)
 
@@ -259,9 +325,15 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/dropdown_option_value', [('pilih_value') : value_card]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
 
@@ -271,9 +343,15 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
 
@@ -285,11 +363,17 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Card Data'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_edit'), 0)
 
@@ -305,11 +389,17 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__EmbossedLastName'), EmbossedLastName)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.findWebElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 0)
 
 		WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 1)
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
@@ -330,6 +420,8 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'))
@@ -358,6 +450,8 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_kelurahan'), kelurahan)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_emergency_contact'), emergencycontact)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/salutation'))
@@ -368,9 +462,13 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__Email'), email)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/button_Save'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
+
+		WebUI.takeFullPageScreenshot()
 
 		///// TAMBAH 2 DAN 3 KARTU
 
@@ -378,9 +476,13 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_CONTRACT 40783682123440'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Add Contract'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Add Contract'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Save'))
 
@@ -388,13 +490,20 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Add Contract'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 
 		///// SETUP KARTU 2
 
+		WebUI.delay(2)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_CARD 2'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_Set Plastic Information_ng-isolate-scope'), 0)
 
@@ -406,7 +515,11 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'), contract_name)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit'))
 
@@ -418,11 +531,17 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_002-Corporate Card 01', [('pilih_productcard') : product_card]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Details'), 0)
 
@@ -438,12 +557,18 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/dropdown_option_value', [('pilih_value') : value_card]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
-		
+
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.doubleClick(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
@@ -454,9 +579,15 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
 
@@ -468,11 +599,17 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Card Data'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_edit'), 0)
 
@@ -488,17 +625,25 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__EmbossedLastName'), EmbossedLastName_2)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.findWebElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 0)
 
 		WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 1)
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Addresses'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/span_Home Address'), 0)
 
@@ -528,6 +673,8 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_kelurahan'), kelurahan)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_emergency_contact'), emergencycontact)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/salutation'))
@@ -538,7 +685,11 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__Email'), email2)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
@@ -546,6 +697,8 @@ class onBoardingCard {
 		///// KARTU 3
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_CARD 3'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/icon_Set Plastic Information_ng-isolate-scope'), 0)
 
@@ -557,7 +710,11 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'), contract_name)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit'))
 
@@ -569,7 +726,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_002-Corporate Card 01', [('pilih_productcard') : product_card]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 
 		///// KARTU 3 CLASSIFIERS
@@ -577,6 +738,8 @@ class onBoardingCard {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Classifiers'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Details'), 0)
 
@@ -586,15 +749,23 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/pilih_value'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/dropdown_option_value', [('pilih_value') : value_card]))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_kedua'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
 
@@ -604,9 +775,15 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/baris_ketiga'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_Edit_Classifiers'))
 
@@ -618,7 +795,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Classifiers/Card 1/span_Yes_baris3'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
@@ -638,11 +819,17 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__EmbossedLastName'), EmbossedLastName_3)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.findWebElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 0)
 
 		WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Embossing Parms'), 1)
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
@@ -678,6 +865,8 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_kelurahan'), kelurahan)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input_emergency_contact'), emergencycontact)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/salutation'))
@@ -688,7 +877,11 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/input__Email'), email3)
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/Create address/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/button_close'))
 
@@ -698,9 +891,13 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/backtoapplicationprocessing'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'))
+
+		WebUI.takeFullPageScreenshot()
 
 		TestData registernumber = findTestData('Data Files/registernumber')
 
@@ -708,29 +905,34 @@ class onBoardingCard {
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'), registernumber.getValue("REGISTRATION NUMBER", 1))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Find'))
 
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Validate'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'), 0)
-		
+
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/button_OK'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/span_Send to Supervisor'))
-		
+
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Application Data/button_Save'))
-		
+
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save In Charge'), null)
-		
+
 		WebUI.click(findTestObject('Object Repository/Checker/Profile'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Checker/Logout'))
 
-	}
-
-
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
 	}
 }

@@ -1,4 +1,4 @@
-package signer
+package onBoardingCard
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -41,41 +41,43 @@ import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
-import org.openqa.selenium.Keys as Keys
 
 
 
 class signer {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Then("Supervisor approve")
-	def spvApprove() {
 
+
+	@Then("Signer approve and accept (.*), (.*)")
+	def signerAcc(String usernamesigner, passwordsigner) {
+
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), usernamesigner)
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), passwordsigner)
+		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'), 0)
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'))
+		WebUI.takeFullPageScreenshot()
+		TestData registernumber = findTestData('Data Files/registernumber')
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'))
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'), registernumber.getValue("REGISTRATION NUMBER", 1))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Find'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/Signer/span_Approve'))
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/span_Accept'), 0)
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/Signer/span_Accept'))
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
-		WebUI.takeScreenshot()
-	}
-
-	@Then("Supervisor decline")
-	def spvDecline() {
-
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/span_Decline'), 0)
-		WebUI.click(findTestObject('Object Repository/Signer/span_Decline'))
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
-		WebUI.takeScreenshot()
-		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
-		WebUI.takeScreenshot()
+		WebUI.takeFullPageScreenshot()
 	}
 }
