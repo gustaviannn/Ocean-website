@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Normal</name>
+   <name>3-022 CLF1 Maker Entry Data 3 Kartu Korporat untuk Nasabah 1 Skenario Sukses</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>

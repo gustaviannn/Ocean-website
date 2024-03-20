@@ -155,4 +155,50 @@ class checker {
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
 	}
+
+	@And("Checker decline entry tiket")
+	def checkerDecline() {
+
+		TestData login = findTestData("Data Files/loginchecker")
+
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
+
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cl_chk_1")
+
+		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_By Registration Number'))
+
+		WebUI.takeFullPageScreenshot()
+
+		TestData registernumber = findTestData('Data Files/registernumber')
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'))
+
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'), registernumber.getValue("REGISTRATION NUMBER", 1))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Find'))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/Checker/span_Decline'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Checker/button_Save'), 0)
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/Checker/button_Save'))
+
+		WebUI.takeFullPageScreenshot()
+	}
 }

@@ -80,4 +80,30 @@ class signer {
 		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
 		WebUI.takeFullPageScreenshot()
 	}
+	
+	
+	@And("Signer decline entry tiket (.*), (.*)")
+	def signerDecline(String usernamesigner, passwordsigner) {
+		
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), usernamesigner)
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), passwordsigner)
+		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/div_Supervisor Application Management'), 0)
+		WebUI.click(findTestObject('Object Repository/Signer/div_Supervisor Application Management'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/span_By Registration Number'), 0)
+		WebUI.click(findTestObject('Object Repository/Signer/span_By Registration Number'))
+		WebUI.takeFullPageScreenshot()
+		TestData registernumber = findTestData('Data Files/registernumber')
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'))
+		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input_register_number'), registernumber.getValue("REGISTRATION NUMBER", 1))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_Find'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/Signer/span_Decline'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Signer/button_Save'), 0)
+		WebUI.click(findTestObject('Object Repository/Signer/button_Save'))
+		WebUI.takeFullPageScreenshot()
+	}
 }

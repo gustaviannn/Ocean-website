@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Decline</name>
    <tag></tag>
-   <elementGuidId>05b08fce-1117-4618-8b2a-bdda1603edd9</elementGuidId>
+   <elementGuidId>2932a9b4-8c3f-4c7e-a2e6-e2d9b3cb3860</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7b3e914e-42d6-4c4a-bec3-2cc8cc2ac11d</webElementGuid>
+      <webElementGuid>d47a9f77-796b-4031-9426-4712ddfd7792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>ng-bind-html</name>
       <type>Main</type>
       <value>getLinkTitle(link) | sanitize</value>
-      <webElementGuid>8267379b-a5f8-4dc9-921e-85a8fce68fce</webElementGuid>
+      <webElementGuid>627f7ef8-0ba3-4bb8-b436-3d2610c01f42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>1974d3d2-0f3f-4fd3-b787-4c52331afdc1</webElementGuid>
+      <webElementGuid>703b8180-1aa8-4da5-b880-425af5eced1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +47,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Decline</value>
-      <webElementGuid>e2bf6905-c02d-47b8-8c33-1af6a3492ecb</webElementGuid>
+      <webElementGuid>217ac23b-bb39-4ea1-a8d6-e6a37c7a3f9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_Apply   id_4 last first&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-focused&quot;]/div[@class=&quot;tab-element tab-header ng-scope&quot;]/div[@class=&quot;header-content&quot;]/div[2]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;iconic-container&quot;]/div[@class=&quot;iconic-container-right&quot;]/div[@class=&quot;breadcrumb-container iconbar&quot;]/div[1]/div[@class=&quot;breadcrumbs&quot;]/ng-transclude[1]/div[@class=&quot;br-step step-hide for-focus br-right2 tab-label-top ng-scope step-last&quot;]/div[@class=&quot;tab-label-top-button for-focus&quot;]/span[@class=&quot;ng-binding&quot;]</value>
-      <webElementGuid>fe32ada8-08de-426b-9dda-2b8292b65740</webElementGuid>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;body_ custom zoomed_del browser- theme-grey&quot;]/div[2]/layout-manager[@class=&quot;custom ng-isolate-scope&quot;]/div[@class=&quot;main-panel&quot;]/layout[@class=&quot;layout-frame ng-scope ng-isolate-scope active-frame&quot;]/div[@class=&quot;layout&quot;]/div[@class=&quot;panel animate pane_IssApplMngApplsGetAllMy   id_2 first last&quot;]/tab[@class=&quot;custom_tab_0 tab-container&quot;]/div[@class=&quot;tab has-sub-tab package-WSCards_APPLICATION_MANAGEMENT   tab-focused&quot;]/div[@class=&quot;tab-element tab-header ng-scope&quot;]/div[@class=&quot;header-content&quot;]/div[2]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;iconic-container&quot;]/div[@class=&quot;iconic-container-right&quot;]/div[@class=&quot;breadcrumb-container iconbar&quot;]/div[1]/div[@class=&quot;breadcrumbs&quot;]/ng-transclude[1]/div[@class=&quot;br-step step-hide for-focus br-right2 tab-label-top ng-scope step-last&quot;]/div[@class=&quot;tab-label-top-button for-focus&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>cc7bee8d-dea1-4484-8f5e-481261c7121f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::span[1]</value>
-      <webElementGuid>4ba34984-8553-4d23-abdd-ac502bd86bbc</webElementGuid>
+      <webElementGuid>731f764b-e07b-4de5-a77b-9bb14aecada8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/following::span[1]</value>
-      <webElementGuid>4f988895-9ae4-4086-b2a9-bbbfc30efe42</webElementGuid>
+      <webElementGuid>ae90d49d-84e8-47dc-99a8-d508f37dfb0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[2]/preceding::span[2]</value>
-      <webElementGuid>485bd7fc-16e3-44a8-a948-d378afd124bd</webElementGuid>
+      <webElementGuid>da47cb6e-a8f1-4fb1-9f01-bd611c955570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[2]/preceding::span[2]</value>
-      <webElementGuid>ae7c2a10-da37-48f3-8782-40bd9c05e3e1</webElementGuid>
+      <webElementGuid>03695ccc-a99e-48a7-8bac-fd47d93cb07e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Decline']/parent::*</value>
-      <webElementGuid>94758c58-fed2-4ef8-b9ce-c86a66ba828c</webElementGuid>
+      <webElementGuid>6e20823e-f934-498d-99de-e0f639314690</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>8870ea18-2bd9-4191-8df2-629415b9d0d9</webElementGuid>
+      <webElementGuid>12825481-0262-46e2-8bcb-2f4e56e3f635</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Decline' or . = 'Decline')]</value>
-      <webElementGuid>4c846479-573c-4f4d-a8c1-14658e45d878</webElementGuid>
+      <webElementGuid>29287c27-78e4-49db-8182-5893ac22d2da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

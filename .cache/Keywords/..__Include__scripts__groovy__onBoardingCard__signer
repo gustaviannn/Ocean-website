@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "C9E81587BABF549DD5985201F2F62532",
+  "keywordFileContentHash": "0FF6AA92D20E6260285408B689660F4D",
   "keywordClasses": [
     {
       "name": "onBoardingCard.signer",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
