@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFileWithTags("Include/features/Onboarding Card/02_Checker/Checker.feature", "@CheckerDecline")
+CucumberKW.runFeatureFileWithTags("Include/features/Onboarding Card/02_Checker/Checker.feature", "@CheckerDecline2Kartu")

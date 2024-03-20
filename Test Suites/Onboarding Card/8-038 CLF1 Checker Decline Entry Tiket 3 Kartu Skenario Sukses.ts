@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>3-022 CLF1 Maker Entry Data 3 Kartu Korporat untuk Nasabah 1 Skenario Sukses</name>
+   <name>8-038 CLF1 Checker Decline Entry Tiket 3 Kartu Skenario Sukses</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>5297a4ba-6fa3-4f17-9157-9782c7ec10f6</testSuiteGuid>
+   <testSuiteGuid>a17689b6-c97e-4aeb-a480-88e616391e8f</testSuiteGuid>
    <testCaseLink>
-      <guid>0e8d1bd7-97a2-4ce2-a26c-473d7d04b412</guid>
+      <guid>d92beffc-4663-4ec2-a2c1-f4bec4b7cefd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Onboarding Card/3-022 CLF1 Maker Entry Data 3 Kartu Korporat untuk Nasabah 1 Skenario Sukses</testCaseId>
+      <testCaseId>Test Cases/Onboarding Card/8-038 CLF1 Checker Decline Entry Tiket 3 Kartu Skenario Sukses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
