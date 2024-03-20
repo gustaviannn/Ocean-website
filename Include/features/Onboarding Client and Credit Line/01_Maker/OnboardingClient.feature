@@ -9,7 +9,8 @@ Feature: Onboarding Client and Credit Line
     When User fill <short_name>, <customer_name_1>, <customer_name_2>, <main_phone_number>, <mothers_name>
     When User then fill <cust_acc_num>, <ktp>, <npwp>, <brinet_id>, <edm_id>, <corp_cust>
     When User continue fill <emergency_contact>, <add_line_1>, <add_line_2>, <add_line_3>, <email>, <phone_mobile>, <state>, <city>, <zip>
-    When User then continue fill <contract_name>, <cred_lim_amnt>, <cred_lim_reason>    
+    When User then continue fill <contract_name>, <cred_lim_amnt>, <cred_lim_reason>
+    Then User click save    
 
     Examples: 
       | username | password | application_id       | short_name		| customer_name_1	|	customer_name_2	| main_phone_number	| mothers_name	|cust_acc_num|ktp							|npwp						 |brinet_id|edm_id|corp_cust |emergency_contact|add_line_1|add_line_2|add_line_3|email			 |phone_mobile|state |city|zip   |contract_name|cred_lim_amnt|cred_lim_reason|																																																									

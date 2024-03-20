@@ -122,9 +122,12 @@ class stepdef_maker {
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/addClient/input_lim_curr'))
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/addClient/select_lim_curr'))
-
+	}
+	
+	@Then("User click save")
+	def save_onboardingClient() {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/addClient/button_save'))
-		//WebUI.closeBrowser()
+		WebUI.closeBrowser()
 	}
 }
 
