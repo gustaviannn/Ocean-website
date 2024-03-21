@@ -125,7 +125,7 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_OK'))
 
-		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save Register Number'), null)
+		WebUI.callTestCase(findTestCase('Test Cases/02_Onboarding Card/Save Register Number'), null)
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Application Data/span_Application Data'), 0)
 
@@ -935,7 +935,7 @@ class onBoardingCard {
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save In Charge'), null)
+		WebUI.callTestCase(findTestCase('Test Cases/02_Onboarding Card/Save In Charge'), null)
 
 		WebUI.click(findTestObject('Object Repository/02_Checker/Profile'))
 
@@ -1003,7 +1003,7 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_OK'))
 
-		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save Register Number'), null)
+		WebUI.callTestCase(findTestCase('Test Cases/02_Onboarding Card/Save Register Number'), null)
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Application Data/span_Application Data'), 0)
 
@@ -1607,7 +1607,7 @@ class onBoardingCard {
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.callTestCase(findTestCase('Test Cases/Onboarding Card/Save In Charge'), null)
+		WebUI.callTestCase(findTestCase('Test Cases/02_Onboarding Card/Save In Charge'), null)
 
 		WebUI.click(findTestObject('Object Repository/02_Checker/Profile'))
 

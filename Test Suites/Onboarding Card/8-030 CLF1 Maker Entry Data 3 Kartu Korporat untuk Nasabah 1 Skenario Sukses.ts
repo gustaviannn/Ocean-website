@@ -15,7 +15,7 @@
       <guid>0e8d1bd7-97a2-4ce2-a26c-473d7d04b412</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Onboarding Card/8-030 CLF1 Maker Entry Data 3 Kartu Korporat untuk Nasabah 1 Skenario Sukses</testCaseId>
+      <testCaseId>Test Cases/02_Onboarding Card/8-030 CLF1 Maker Entry Data 3 Kartu Korporat untuk Nasabah 1 Skenario Sukses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

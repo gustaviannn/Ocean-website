@@ -15,7 +15,7 @@
       <guid>d92beffc-4663-4ec2-a2c1-f4bec4b7cefd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Onboarding Card/8-038 CLF1 Checker Decline Entry Tiket 3 Kartu Skenario Sukses</testCaseId>
+      <testCaseId>Test Cases/02_Onboarding Card/8-038 CLF1 Checker Decline Entry Tiket 3 Kartu Skenario Sukses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

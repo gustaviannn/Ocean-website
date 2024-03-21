@@ -15,7 +15,7 @@
       <guid>4423b8b3-fe9a-4e4a-8c6b-81dbb277408f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Onboarding Card/8-034 CLF1 Maker Submit Entry Tiket Corporate Onboarding Skenario Gagal Data Mandatory Tidak diisi</testCaseId>
+      <testCaseId>Test Cases/02_Onboarding Card/8-034 CLF1 Maker Submit Entry Tiket Corporate Onboarding Skenario Gagal Data Mandatory Tidak diisi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

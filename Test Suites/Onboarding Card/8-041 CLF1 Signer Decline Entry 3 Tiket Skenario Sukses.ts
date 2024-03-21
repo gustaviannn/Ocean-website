@@ -15,7 +15,7 @@
       <guid>c4543cad-ff70-4d4f-bb58-482cb1509cd6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Onboarding Card/8-041 CLF1 Signer Decline 3 Entry Tiket Skenario Sukses</testCaseId>
+      <testCaseId>Test Cases/02_Onboarding Card/8-041 CLF1 Signer Decline 3 Entry Tiket Skenario Sukses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

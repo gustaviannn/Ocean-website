@@ -15,7 +15,7 @@
       <guid>05764d03-fcf7-43ef-9769-6bfb94996e37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Onboarding Card/8-044 CLF1 Memonitor Data Nasabah dan Kartu Korporat yang telah diproses</testCaseId>
+      <testCaseId>Test Cases/02_Onboarding Card/8-044 CLF1 Memonitor Data Nasabah dan Kartu Korporat yang telah diproses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
