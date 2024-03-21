@@ -39,9 +39,9 @@ import org.apache.poi.ss.usermodel.Cell as Cell
 import org.apache.poi.ss.usermodel.Row as Row
 import java.io.FileWriter as FileWriter
 
-WebUI.findWebElement(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/span_cl_mkr_2'), 2)
+WebUI.findWebElement(findTestObject('Object Repository/01_Maker/Onboarding Card/Dashboard/span_cl_mkr_2'), 2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/span_cl_mkr_2'), 2)
+WebUI.scrollToElement(findTestObject('Object Repository/01_Maker/Onboarding Card/Dashboard/span_cl_mkr_2'), 2)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
