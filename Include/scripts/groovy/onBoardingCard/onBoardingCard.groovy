@@ -70,7 +70,7 @@ class onBoardingCard {
 	def inputData() {
 
 		TestData onboardingcard = findTestData("Data Files/Onboarding Card")
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
 
 		WebUI.takeFullPageScreenshot()
@@ -504,7 +504,7 @@ class onBoardingCard {
 		WebUI.delay(4)
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/span_CARD 2'))
-		
+
 		WebUI.delay(4)
 
 		WebUI.takeFullPageScreenshot()
@@ -516,7 +516,7 @@ class onBoardingCard {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Edit'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'))
-		
+
 		WebUI.takeFullPageScreenshot()
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'), onboardingcard.getValue("contract_name", 2))
@@ -713,7 +713,7 @@ class onBoardingCard {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/div_Edit'))
 
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'))
-		
+
 		WebUI.takeFullPageScreenshot()
 
 		WebUI.setText(findTestObject('Object Repository/Maker/Onboarding Card/Setup Card Contract/input__ContractName'), onboardingcard.getValue("contract_name", 3))
@@ -943,12 +943,12 @@ class onBoardingCard {
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
 	}
-	
+
 	@And("User mengisi data dan menambahkan 1 kartu tambahan")
 	def inputData2() {
 
 		TestData onboardingcard = findTestData("Data Files/Onboarding Card")
-		
+
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Card/Dashboard/div_Issuing Application Management'))
 
 		WebUI.takeFullPageScreenshot()

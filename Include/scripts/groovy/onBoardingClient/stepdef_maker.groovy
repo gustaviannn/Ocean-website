@@ -153,17 +153,42 @@ public class stepdef_maker {
 	@When("User click save")
 	def save_onboardingClient() {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/addClient/button_save'))
-		WebUI.delay(5)
+		WebUI.delay(3)
 		WebUI.takeFullPageScreenshot()
 	}
 
 	//Issuing Client
-	@Then("User back to Home")
+	@When("User back to Home and go to Issuing menu")
 	def menu_issuing() {
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/button_home'))
 		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/button_issuingApplicationManagement'))
-		//def apl_reg_num = WebUI.getAttribute(findTestObject('Object Repository/Maker/Onboarding Client/addClient/apl_number'), 'title')
-		WebUI.click(apl_reg_num)
+
+		//		def apl_reg_num = getAplRegNum()
+		//		WebUI.click(apl_reg_num)
+
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/button_validate'))
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/button_ok_validate'))
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/button_send_to_spv'))
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/input_reason_exp'))
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/select_reason_exp'))
+	}
+
+	@When("User input a (.*)")
+	def issue_reasoning(String application_id) {
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/textbox_reason'))
+		WebUI.sendKeys(findTestObject('Object Repository/Maker/Onboarding Client/addClient/textbox_reason'), "validate please")
+		WebUI.delay(3)
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/issuingClient/button_save'))
+		WebUI.delay(3)
+		WebUI.takeFullPageScreenshot()
+	}
+
+	@Then("User logout")
+	def maker_logout() {
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/logoutMaker/button_profile'))
+		WebUI.click(findTestObject('Object Repository/Maker/Onboarding Client/logoutMaker/button_logout'))
+		WebUI.delay(3)
+		WebUI.takeFullPageScreenshot()
 	}
 }
 
