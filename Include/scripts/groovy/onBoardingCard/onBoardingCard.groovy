@@ -1372,8 +1372,13 @@ class onBoardingCard {
 		///// SETUP KARTU 2
 
 		WebUI.delay(2)
-
-		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Setup Card Contract/span_CARD'))
+		
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Setup Card Contract/span_CARD 2'))
+		
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Setup Card Contract/value_product_002_corp'), 2, FailureHandling.OPTIONAL) == true) {
+			
+			WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Setup Card Contract/span_CARD'))
+		}
 
 		WebUI.takeFullPageScreenshot()
 
