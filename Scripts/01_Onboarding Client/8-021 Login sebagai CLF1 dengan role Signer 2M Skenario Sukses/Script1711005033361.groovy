@@ -17,5 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFileWithTags('Include/features/Onboarding Client and Credit Line/01_Maker/OnboardingClient.feature', '@CLF1MakerSubmit')
+CucumberKW.runFeatureFileWithTags('Include/features/Onboarding Client and Credit Line/00_Login/loginClf1.feature', '@Signer2MLoginOnBoardingClient')
+
+
+
 
