@@ -51,15 +51,15 @@ WebUI.takeFullPageScreenshot()
 WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/Onboarding Client/addClient/button_menuOnBoardingApplication'), 3)
+WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_menuOnBoardingApplication'), 3)
 WebUI.takeFullPageScreenshot()
-WebUI.click(findTestObject('Object Repository/01_Maker/Onboarding Client/addClient/button_menuOnBoardingApplication'))
-WebUI.click(findTestObject('Object Repository/01_Maker/Onboarding Client/addClient/button_addClient'))
+WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_menuOnBoardingApplication'))
+WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_addClient'))
 
 //String aplreg = lastRow.findElement(By.xpath("//div[4]/span/div")).text
 
-def str = WebUI.getAttribute(findTestObject('Object Repository/01_Maker/Onboarding Client/addClient/apl_number'), 'title')
-WebUI.setText(findTestObject('Object Repository/01_Maker/Onboarding Client/addClient/input_applicationID'), str)
+def str = WebUI.getAttribute(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/apl_number'), 'title')
+WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), str)
 
 String desktopPath = Paths.get(System.getProperty("user.home"), "Desktop").toString()
 String parentFolderName = "Automation Python"

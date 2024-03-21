@@ -42,25 +42,68 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-import onBoardingClient.stepdef_maker
-
 
 
 class stepdef_checker {
-
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@When("User Issuing Application Management Menu")
+	def issuing_application_menu() {
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_issuing_application_menu'))
+		WebUI.delay(2)
+		//WebUI.closeBrowser()
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		def test = new stepdef_maker()
-		def apl_reg_num = test.getAplRegNum()
+	@When("User approve the new issue")
+	def approve_newIssue() {
+//		def test = new stepdef_maker()
+//		def apl_reg_num = test.getAplRegNum()
+	
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_approve_1'))
+		WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_reason'))
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send'))
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_approve_2'))
+		WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_reason_2'))
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send_2'))
 	}
-
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	
+	@When("User request spv approval")
+	def reqSpv() {
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_send_to_spv'))
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_spv'))
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
