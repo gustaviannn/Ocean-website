@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>8-019 CLF1 Checker Approve Entry Tiket Skenario Sukses</name>
+   <name>8-019 CLF1 Checker Approve Entry Tiket Skenario Sukses (2M)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>

@@ -167,6 +167,9 @@ public class stepdef_maker {
 		//		WebUI.click(apl_reg_num)
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/button_validate'))
+		
+		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send'))
+		
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/button_ok_validate'))
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/button_send_to_spv'))
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/input_reason_exp'))
@@ -176,7 +179,7 @@ public class stepdef_maker {
 	@When("User input a (.*)")
 	def issue_reasoning(String application_id) {
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/textbox_reason'))
-		WebUI.sendKeys(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/textbox_reason'), "validate please")
+		WebUI.sendKeys(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/textbox_reason'), "validate please")
 		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/issuingClient/button_save'))
 		WebUI.delay(3)

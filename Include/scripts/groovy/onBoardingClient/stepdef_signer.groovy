@@ -42,52 +42,29 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+class stepdef_signer {
 
-
-class stepdef_checker {
-	@When("User Issuing Application Management Menu")
-	def issuing_application_menu() {
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_issuing_application_menu'))
-		WebUI.delay(2)
-		//WebUI.closeBrowser()
+	@When("User go to Supervisor App Management Menu")
+	def samMenu() {
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_sam_menu'))		
 	}
-
-	@When("User approve the new issue")
-	def approve_newIssue() {
-		//		def test = new stepdef_maker()
-		//		def apl_reg_num = test.getAplRegNum()
-
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_approve_1'))
-//		
-//		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_reason'))
-//		WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_reason'))
-		WebUI.delay(2)
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send'))
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_approve_2'))
-//		WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
-		WebUI.delay(2)
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_reason_2'))
-		WebUI.delay(2)
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send_2'))
+	
+	@When("User approve issue")
+	def spvApproveIssue() {
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_approve_1'))
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_save_1'))
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_ok_1'))
 	}
-
-	@When("User request spv approval")
-	def reqSpv() {
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_send_to_spv'))
-		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_spv'))
+	
+	@When("User do approval")
+	def spvApproveFinal() {
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_accepting'))
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_save_2'))
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_ok_1'))
+		WebUI.delay(20)
+		WebUI.closeBrowser()
 	}
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
