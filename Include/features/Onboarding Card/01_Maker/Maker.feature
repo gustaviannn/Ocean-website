@@ -32,3 +32,12 @@ Feature: Title of your feature
     Examples: 
       | usernamesigner | passwordsigner | username | password | editcontractname      |
       | cdd_sgn_1      | cdd_sgn_1      | cl_mkr_2 | cl_mkr_2 | ini sudah diedit aldy |
+
+  @MakerNasabahTidakDitemukan
+  Scenario Outline: Maker gagal membuat transaksi karena data nasabah tidak ditemukan
+    Given User login <username>, <password>
+    And User mencari data nasabah <nama_nasabah>
+
+    Examples: 
+      | username | password | nama_nasabah |
+      | cl_mkr_2 | cl_mkr_2 | indodrink    |

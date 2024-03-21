@@ -111,11 +111,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Find'))
 
-		WebUI.waitForElementClickable(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Select'), 0)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/span_Select'), 0)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Select'))
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/span_Select'))
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Save'))
 
@@ -989,11 +989,11 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Find'))
 
-		WebUI.waitForElementClickable(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Select'), 0)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/span_Select'), 0)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Select'))
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/span_Select'))
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Save'))
 
@@ -1646,5 +1646,45 @@ class onBoardingCard {
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Save'))
 
 		WebUI.takeFullPageScreenshot()
+	}
+
+	@And("User mencari data nasabah (.*)")
+	def userMencariDataNasabah(String nama_nasabah) {
+
+		TestData onboardingcard = findTestData("Data Files/Onboarding Card")
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/div_Issuing Application Management'))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_create'), 0)
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_create'))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/div_Create for Client'))
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/Pilih_branch'))
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/Dropdown_option_Branch', [('pilih_branch') : onboardingcard.getValue("branch", 1)]))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/Pilih_application_type'))
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/Dropdown_option_Application_Type', [('pilih_app_type') : onboardingcard.getValue("app_type", 1)]))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/input__IssuingClient'))
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/input_name_issuing_client'))
+
+		WebUI.setText(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/input_name_issuing_client'), nama_nasabah)
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Find'))
 	}
 }

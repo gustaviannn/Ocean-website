@@ -80,11 +80,11 @@ class signer {
 		WebUI.click(findTestObject('Object Repository/03_Signer/button_Save'))
 		WebUI.takeFullPageScreenshot()
 	}
-	
-	
+
+
 	@And("Signer decline entry tiket (.*), (.*)")
 	def signerDecline(String usernamesigner, passwordsigner) {
-		
+
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), usernamesigner)
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), passwordsigner)
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
@@ -104,6 +104,36 @@ class signer {
 		WebUI.takeFullPageScreenshot()
 		WebUI.waitForElementPresent(findTestObject('Object Repository/03_Signer/button_Save'), 0)
 		WebUI.click(findTestObject('Object Repository/03_Signer/button_Save'))
+		WebUI.takeFullPageScreenshot()
+	}
+
+	@And("Signer Memonitor Data Nasabah dan Kartu Korporat yang telah diproses (.*)")
+	def signerMonitor(String name) {
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/03_Signer/02_Onboarding Card/div_Customer Service Dashboard'), 0)
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/03_Signer/02_Onboarding Card/div_Customer Service Dashboard'))
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/03_Signer/02_Onboarding Card/input__SHORT_NAME'), 0)
+
+		WebUI.setText(findTestObject('Object Repository/03_Signer/02_Onboarding Card/input__SHORT_NAME'), name)
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/03_Signer/02_Onboarding Card/span_Find'))
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/03_Signer/02_Onboarding Card/span_Details'), 0)
+
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/03_Signer/02_Onboarding Card/span_Details'))
+
+		WebUI.scrollToElement(findTestObject('Object Repository/03_Signer/02_Onboarding Card/div_Identification Data'), 1)
+
 		WebUI.takeFullPageScreenshot()
 	}
 }
