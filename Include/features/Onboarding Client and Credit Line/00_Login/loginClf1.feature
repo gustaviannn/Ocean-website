@@ -26,7 +26,15 @@ Feature: Login as CLF1 Checker
     Examples: 
       | username | password |
       | div_head | 12345    |
-      
+   
+   
+  @Signer250jtLoginOnBoardingClient
+  Scenario Outline: 8-025 Login sebagai CLF1 dengan role Signer 250JT Skenario Sukses
+    Given User login <username>, <password>
+    
+    Examples: 
+      | username    | password |
+      | team_leader | 12345    |
       
       
       

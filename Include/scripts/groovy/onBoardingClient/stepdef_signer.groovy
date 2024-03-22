@@ -46,16 +46,16 @@ class stepdef_signer {
 
 	@When("User go to Supervisor App Management Menu")
 	def samMenu() {
-		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_sam_menu'))		
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_sam_menu'))
 	}
-	
+
 	@When("User approve issue")
 	def spvApproveIssue() {
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_approve_1'))
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_save_1'))
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_ok_1'))
 	}
-	
+
 	@When("User do approval")
 	def spvApproveFinal() {
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_accepting'))

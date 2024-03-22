@@ -10,5 +10,5 @@ Feature: Issuing Application Management
     Then User logout
     
      Examples: 
-      | username | password |
-      | div_head | 12345    |
+      | username    | password |
+      | team_leader | 12345    |
