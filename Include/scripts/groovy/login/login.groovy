@@ -62,6 +62,7 @@ class login {
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), password)
 		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
 		WebUI.takeFullPageScreenshot()
 	}
 
@@ -76,5 +77,22 @@ class login {
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), "cdd_sgn_1")
 		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cdd_sgn_1")
 		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+	}
+
+
+	@And("Checker login (.*), (.*)")
+	def checkerLogin(String username, String password) {
+
+		WebUI.openBrowser(GlobalVariable.url)
+		WebUI.maximizeWindow()
+		WebUI.sendKeys(findTestObject('Object Repository/advance_btn'), GlobalVariable.unsafe)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 10)
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), username)
+		WebUI.takeFullPageScreenshot()
+		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), password)
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
+		WebUI.takeFullPageScreenshot()
 	}
 }

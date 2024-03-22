@@ -2,6 +2,14 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
+  @MakerLogin
+  Scenario Outline: Maker gagal membuat transaksi karena data nasabah tidak ditemukan
+    Given User login <username>, <password>
+
+    Examples: 
+      | username | password |
+      | cl_mkr_2 | cl_mkr_2 |
+
   @MakerEntryData3KartuKorporat
   Scenario Outline: Title of your scenario outline
     Given User login <username>, <password>

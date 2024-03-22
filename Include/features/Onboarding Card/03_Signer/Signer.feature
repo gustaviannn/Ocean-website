@@ -2,6 +2,10 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
+  @SignerLogin
+  Scenario: Title of your scenario outline
+    Given Supervisor login
+
   @SignerApprove
   Scenario Outline: Title of your scenario outline
     Given Signer approve and accept <usernamesigner>, <passwordsigner>

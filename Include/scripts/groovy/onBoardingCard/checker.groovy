@@ -122,6 +122,10 @@ class checker {
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/button_Save'))
 
 		WebUI.takeFullPageScreenshot()
+		
+		WebUI.scrollToElement(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Application Data/div_General'), 1)
+		
+		WebUI.takeFullPageScreenshot()
 
 		WebUI.click(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Setup Card Contract/backtoapplicationprocessing'))
 
@@ -201,4 +205,5 @@ class checker {
 
 		WebUI.takeFullPageScreenshot()
 	}
+	
 }

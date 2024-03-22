@@ -2,6 +2,14 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
+  @CheckerLogin
+  Scenario Outline: Checker login
+    Given Checker login <username>, <password>
+
+    Examples: 
+      | username | password |
+      | cl_chk_1 | cl_chk_1 |
+
   @CheckerEditContract
   Scenario Outline: Checker merubah nama kontrak
     Given Checker edit contract <editcontractname> and approve
