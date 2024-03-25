@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drodown_list_liab</name>
+   <tag></tag>
+   <elementGuidId>0ae53eba-25f0-4ee6-bad6-3a532af94e08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.ui-select-choices-row-inner[title='002-C-ACCT2724149779630848']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-choices-row-inner</value>
+      <webElementGuid>08a02e4e-a5cd-4072-9b5e-32f7ebe28989</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
