@@ -62,6 +62,12 @@ class stepdef_signer {
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_save_2'))
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_ok_1'))
 		WebUI.delay(20)
+	}
+	
+	@Then("User logout as signer")
+	def signerLogout() {
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_menu_profile'))
+		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_logout'))
 		WebUI.closeBrowser()
 	}
 }

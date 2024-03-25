@@ -1,7 +1,7 @@
 @MakerCreateOnBoardingClient
 Feature: Onboarding Client and Credit Line
 
-	@CLF1MakerSubmit
+	@CLF1MakerSubmit2M
   Scenario Outline: 8-014 CLF1 Maker Submit Tiket Corporate Onboarding Skenario Sukses
     Given User login <username>, <password>
     When User click menu corporate onboarding, and click plus icon
