@@ -84,11 +84,11 @@ public class stepdef_maker {
 		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/select_client_category'))
 		WebUI.takeFullPageScreenshot()
 
-		def aplRegNum_get
+//		def apl_reg_num = getAplRegNum()
 //		WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), apl_reg_num)
-		//WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), apl_reg_num)
+		WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), application_id)
 		
-		WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), aplRegNum_get.testSubstance)
+//		WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), aplRegNum_get.testSubstance)
 		
 		WebUI.takeFullPageScreenshot()
 	}
