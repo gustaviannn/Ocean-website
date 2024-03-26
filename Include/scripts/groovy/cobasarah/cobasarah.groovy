@@ -45,32 +45,57 @@ import cucumber.api.java.en.When
 
 
 class cobasarah {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-
 	@Then("Maker save nomor akun")
 	def inquiry() {
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/div_Customer Service Dashboard'))
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/input__SHORT_NAME'))
+//
+//		WebUI.setText(findTestObject('Object Repository/coba sarah/input__SHORT_NAME'), "aldy")
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/span_Find'))
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/span_Select Customer'))
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/button_OK'))
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/span_Accounts'))
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/div_Product'))
+//
+//		WebUI.click(findTestObject('Object Repository/coba sarah/div_Product'))
+//
+//		WebUI.callTestCase(findTestCase('Test Cases/Save Nomor Akun'), null)
 		
-		WebUI.click(findTestObject('Object Repository/coba sarah/div_Customer Service Dashboard'))
-		
-		WebUI.click(findTestObject('Object Repository/coba sarah/input__SHORT_NAME'))
-		
-		WebUI.setText(findTestObject('Object Repository/coba sarah/input__SHORT_NAME'), "aldy")
+		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_menuOnBoardingApplication'), 3)
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_menuOnBoardingApplication'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_addClient'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_finInstitution'))
+		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Object Repository/coba sarah/span_Find'))
+		WebUI.waitForElementClickable(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/select_BRI'), 2)
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/select_BRI'))
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_branch'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/select_branch')) //bandung
+		WebUI.takeFullPageScreenshot()
+
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_client_category'))
+		WebUI.takeFullPageScreenshot()
+		WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/select_client_category'))
+		WebUI.takeFullPageScreenshot()
 		
-		WebUI.click(findTestObject('Object Repository/coba sarah/span_Select Customer'))	
+		WebUI.callTestCase(findTestCase('Test Cases/01_Onboarding Client/Save Apl Reg Number'), null)
 		
-		WebUI.click(findTestObject('Object Repository/coba sarah/button_OK'))	
+		WebUI.closeBrowser()
 		
-		WebUI.click(findTestObject('Object Repository/coba sarah/span_Accounts'))
-		
-		WebUI.click(findTestObject('Object Repository/coba sarah/div_Product'))
-		
-		WebUI.click(findTestObject('Object Repository/coba sarah/div_Product'))
-		
-		WebUI.callTestCase(findTestCase('Test Cases/Save Nomor Akun'), null)
 		
 	}
 }

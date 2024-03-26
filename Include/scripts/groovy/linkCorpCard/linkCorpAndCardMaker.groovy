@@ -48,37 +48,47 @@ class linkCorpAndCardMaker {
 	@When("User go to Customer Service Dashboard Menu")
 	def menuCustService() {
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_menu_cust_service_dashboard'))
+		WebUI.takeFullPageScreenshot()
 	}
-	
+
 	@When("User search for (.*)")
 	def searchCustomer(String customer) {
 		WebUI.setText(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/field_customer_name'), customer)
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_find_customer'))
 		WebUI.delay(2)
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_select_customer'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_ok_popup'))
 		WebUI.delay(2)
-	
+		WebUI.takeFullPageScreenshot()
 	}
-	
+
 	@When("User go to account page")
 	def accountPage() {
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_account_page'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/list_account'))
+		WebUI.takeFullPageScreenshot()
 	}
-	
+
 	@When("User Choose account number and link the customer")
 	def linkCust() {
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_details_account'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/icon_edit_account'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/dropdown_liab_contract'))
-		
+		WebUI.takeFullPageScreenshot()
+
 		//need to find better path
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/drodown_list_liab'))
-		
+		WebUI.takeFullPageScreenshot()
+
 		WebUI.click(findTestObject('Object Repository/01_Maker/03_Link Corp Billing and Credit Line/button_save_edit_account'))
+		WebUI.takeFullPageScreenshot()
 	}
-	
 }
 
 

@@ -47,8 +47,11 @@ import cucumber.api.java.en.When
 class stepdef_checker {
 	@When("User Issuing Application Management Menu")
 	def issuing_application_menu() {
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_issuing_application_menu'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.delay(2)
+		WebUI.takeFullPageScreenshot()
 		//WebUI.closeBrowser()
 	}
 
@@ -58,24 +61,35 @@ class stepdef_checker {
 		//		def apl_reg_num = test.getAplRegNum()
 
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_approve_1'))
-//		
-//		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_reason'))
-//		WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
+		WebUI.takeFullPageScreenshot()
+		
+		//WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_reason'))
+		//WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
+		
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_reason'))
 		WebUI.delay(2)
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_approve_2'))
-//		WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
+		//WebUI.sendKeys(findTestObject('Object Repository/02_Checker/01_Onboarding Client/input_comment'), "validate please")
 		WebUI.delay(2)
+		WebUI.takeFullPageScreenshot()
+		
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_reason_2'))
 		WebUI.delay(2)
+		WebUI.takeFullPageScreenshot()
+		
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_ok_send_2'))
+		WebUI.takeFullPageScreenshot()
 	}
 
 	@When("User request spv approval")
 	def reqSpv() {
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_send_to_spv'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/02_Checker/01_Onboarding Client/button_save_spv'))
+		WebUI.takeFullPageScreenshot()
 	}
 }
 

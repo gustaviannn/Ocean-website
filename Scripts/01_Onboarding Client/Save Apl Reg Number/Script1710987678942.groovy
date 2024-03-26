@@ -40,46 +40,54 @@ import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.Row
 import java.io.FileWriter
 
-WebUI.openBrowser(GlobalVariable.url)
-WebUI.maximizeWindow()
-WebUI.sendKeys(findTestObject('Object Repository/advance_btn'), GlobalVariable.unsafe)
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 10)
-WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), 'cl_mkr_1')
-WebUI.takeFullPageScreenshot()
-WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), 'cl_mkr_1')
-WebUI.takeFullPageScreenshot()
-WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
-WebUI.takeFullPageScreenshot()
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_menuOnBoardingApplication'), 3)
-WebUI.takeFullPageScreenshot()
-WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_menuOnBoardingApplication'))
-WebUI.click(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/button_addClient'))
+//List<WebElement> tableTransaksi = driver.findElements(By.xpath("//tbody"))
 
-//String aplreg = lastRow.findElement(By.xpath("//div[4]/span/div")).text
+//List<String> listKolom = new ArrayList<String>()
 
-def str = WebUI.getAttribute(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/apl_number'), 'title')
-WebUI.setText(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/input_applicationID'), str)
+//if (tableTransaksi.size() >= 1) {
+//	WebElement lastRow = tableTransaksi.get(tableTransaksi.size() - 1);
+//	String registernumber = lastRow.findElement(By.xpath("//div[2]/span/div")).text
+//	String namakolom = lastRow.findElement(By.xpath("//div[5]/div/div[1]/div[2]/span")).text
+//	listTrx.add(registernumber)
+//	listKolom.add(namakolom)
+//	
+//	println (registernumber)
+//} else {
+//	println ("No transaction rows found.")
+//}
 
+CucumberKW.runFeatureFileWithTags('Include/features/Onboarding Client and Credit Line/00_Login/loginClf1.feature', '@MakerLoginOnBoardingClient')
+
+
+def getAplRegNum() {
+	return WebUI.getAttribute(findTestObject('Object Repository/01_Maker/01_Onboarding Client/addClient/apl_number'), 'title')
+}
+
+String registernumber = getAplRegNum()
+listTrx.add(registernumber)
+
+//CREATE EXCEL
 String desktopPath = Paths.get(System.getProperty("user.home"), "Desktop").toString()
 String parentFolderName = "Automation Python"
-String fileName = "aplnumber.xlsx"
-//
+String fileName = "cobasarah.xlsx"
+
 String parentFolderPath = Paths.get(desktopPath, parentFolderName).toString()
 String filePath = Paths.get(parentFolderPath, fileName).toString()
-//
 String excelPath = filePath
-
 
 ExcelKeywords.createExcelFile(excelPath)
 workBook = ExcelKeywords.getWorkbook(excelPath)
 sheet = ExcelKeywords.getExcelSheet(workBook, "Sheet0")
 
 for(int i = 0; i < listTrx.size(); i++){
-	ExcelKeywords.setValueToCellByIndex(sheet, 1, i, listTrx.get(i))
-	ExcelKeywords.setValueToCellByIndex(sheet, i, 0, listKolom.get(i))
+	ExcelKeywords.setValueToCellByIndex(sheet, 1, i, listKolom.get(i))
+	ExcelKeywords.setValueToCellByIndex(sheet, i, 0, listTrx.get(i))
 	ExcelKeywords.saveWorkbook(excelPath, workBook)
 }
+
+
 
 
 

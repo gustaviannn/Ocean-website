@@ -46,28 +46,38 @@ class stepdef_signer {
 
 	@When("User go to Supervisor App Management Menu")
 	def samMenu() {
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_sam_menu'))
+		WebUI.takeFullPageScreenshot()
 	}
 
 	@When("User approve issue")
 	def spvApproveIssue() {
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_approve_1'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_save_1'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_ok_1'))
+		WebUI.takeFullPageScreenshot()
 	}
 
 	@When("User do approval")
 	def spvApproveFinal() {
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_accepting'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_save_2'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_ok_1'))
-		WebUI.delay(20)
+		WebUI.delay(5)
+		WebUI.takeFullPageScreenshot()
 	}
-	
+
 	@Then("User logout as signer")
 	def signerLogout() {
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_menu_profile'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.click(findTestObject('Object Repository/03_Signer/01_Onboarding Client/button_logout'))
+		WebUI.takeFullPageScreenshot()
 		WebUI.closeBrowser()
 	}
 }

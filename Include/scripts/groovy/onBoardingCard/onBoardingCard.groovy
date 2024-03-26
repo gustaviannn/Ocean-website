@@ -941,7 +941,7 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/02_Checker/Logout'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/00_Login/input_English_login'), 0)
 	}
 
 	@And("User mengisi data dan menambahkan 1 kartu tambahan")
@@ -1618,7 +1618,7 @@ class onBoardingCard {
 
 		WebUI.click(findTestObject('Object Repository/02_Checker/Logout'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/00_Login/input_English_login'), 0)
 	}
 
 	@And("User tidak mengisi data mandatory (.*), (.*)")

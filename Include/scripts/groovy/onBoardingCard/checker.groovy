@@ -53,11 +53,11 @@ class checker {
 
 		TestData login = findTestData("Data Files/loginchecker")
 
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
 
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cl_chk_1")
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_password'), "cl_chk_1")
 
-		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.click(findTestObject('Object Repository/00_Login/button_Login'))
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
 
@@ -153,7 +153,7 @@ class checker {
 
 		WebUI.click(findTestObject('Object Repository/02_Checker/Logout'))
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Login_page/input_English_login'), 0)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/00_Login/input_English_login'), 0)
 	}
 
 	@And("Checker decline entry tiket")
@@ -161,11 +161,11 @@ class checker {
 
 		TestData login = findTestData("Data Files/loginchecker")
 
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_login'), login.getValue("IN-CHARGE OFFICER", 1))
 
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), "cl_chk_1")
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_password'), "cl_chk_1")
 
-		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.click(findTestObject('Object Repository/00_Login/button_Login'))
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/01_Maker/02_Onboarding Card/Dashboard/div_Issuing Application Management'), 0)
 

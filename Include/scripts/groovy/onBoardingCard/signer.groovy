@@ -50,9 +50,9 @@ class signer {
 	@Then("Signer approve and accept (.*), (.*)")
 	def signerAcc(String usernamesigner, passwordsigner) {
 
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), usernamesigner)
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), passwordsigner)
-		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_login'), usernamesigner)
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_password'), passwordsigner)
+		WebUI.click(findTestObject('Object Repository/00_Login/button_Login'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/03_Signer/div_Supervisor Application Management'), 0)
 		WebUI.click(findTestObject('Object Repository/03_Signer/div_Supervisor Application Management'))
 		WebUI.takeFullPageScreenshot()
@@ -85,9 +85,9 @@ class signer {
 	@And("Signer decline entry tiket (.*), (.*)")
 	def signerDecline(String usernamesigner, passwordsigner) {
 
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_login'), usernamesigner)
-		WebUI.setText(findTestObject('Object Repository/Login_page/input_English_password'), passwordsigner)
-		WebUI.click(findTestObject('Object Repository/Login_page/button_Login'))
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_login'), usernamesigner)
+		WebUI.setText(findTestObject('Object Repository/00_Login/input_English_password'), passwordsigner)
+		WebUI.click(findTestObject('Object Repository/00_Login/button_Login'))
 		WebUI.waitForElementPresent(findTestObject('Object Repository/03_Signer/div_Supervisor Application Management'), 0)
 		WebUI.click(findTestObject('Object Repository/03_Signer/div_Supervisor Application Management'))
 		WebUI.takeFullPageScreenshot()
