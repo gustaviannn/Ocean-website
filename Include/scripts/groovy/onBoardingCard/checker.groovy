@@ -201,5 +201,4 @@ class checker {
 
 		WebUI.takeFullPageScreenshot()
 	}
-	
 }
